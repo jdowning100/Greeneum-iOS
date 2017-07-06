@@ -9,43 +9,40 @@
 /* Begin PBXBuildFile section */
 		3FE479FF31F906393A9A6236 /* Pods_GreeneumUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C6557989B4DE85E8DE14C37 /* Pods_GreeneumUITests.framework */; };
 		706F728BDD4DA37693E0C3B5 /* Pods_GreeneumTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDE4FD7B7CEED091CA71548 /* Pods_GreeneumTests.framework */; };
-		AC0B99DC1EF6B6650034DA68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B99DB1EF6B6650034DA68 /* AppDelegate.swift */; };
-		AC0B99E51EF6B6650034DA68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0B99E31EF6B6650034DA68 /* Main.storyboard */; };
-		AC0B99E71EF6B6650034DA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0B99E61EF6B6650034DA68 /* Assets.xcassets */; };
-		AC0B99EA1EF6B6650034DA68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0B99E81EF6B6650034DA68 /* LaunchScreen.storyboard */; };
-		AC0B99F51EF6B6650034DA68 /* SolarChangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B99F41EF6B6650034DA68 /* SolarChangeTests.swift */; };
-		AC0B9A001EF6B6650034DA68 /* SolarChangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B99FF1EF6B6650034DA68 /* SolarChangeUITests.swift */; };
-		AC0B9A101EF6BEFC0034DA68 /* Source in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9A0F1EF6BEFC0034DA68 /* Source */; };
-		AC0B9A201EF91BE20034DA68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B9A1F1EF91BE20034DA68 /* ViewController.swift */; };
-		AC0B9A331EF9654D0034DA68 /* icons8-share.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9A2D1EF9654D0034DA68 /* icons8-share.png */; };
-		AC0B9A341EF9654D0034DA68 /* icons8-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9A2E1EF9654D0034DA68 /* icons8-menu.png */; };
-		AC0B9A351EF9654D0034DA68 /* icons8-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9A2F1EF9654D0034DA68 /* icons8-facebook.png */; };
-		AC0B9A361EF9654D0034DA68 /* icons8-twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9A301EF9654D0034DA68 /* icons8-twitter.png */; };
-		AC0B9A371EF9654D0034DA68 /* icons8-greentech.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9A311EF9654D0034DA68 /* icons8-greentech.png */; };
-		AC0B9A381EF9654D0034DA68 /* icons8-recycling.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9A321EF9654D0034DA68 /* icons8-recycling.png */; };
-		AC0B9A3A1EF96D640034DA68 /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B9A391EF96D640034DA68 /* TwitterViewController.swift */; };
-		AC0B9A3C1EF972910034DA68 /* logo-top.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9A3B1EF972910034DA68 /* logo-top.png */; };
-		AC0B9A401EF974F80034DA68 /* prln-cursor.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9A3F1EF974F80034DA68 /* prln-cursor.png */; };
-		AC0B9A421EF975210034DA68 /* decor-2.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9A411EF975210034DA68 /* decor-2.png */; };
-		AC0B9A4C1EF9839A0034DA68 /* FacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B9A4B1EF9839A0034DA68 /* FacebookViewController.swift */; };
-		AC0B9AD51EFA9FB60034DA68 /* icons8-home.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9AD31EFA9FB60034DA68 /* icons8-home.png */; };
-		AC0B9AD61EFA9FB60034DA68 /* icons8-about.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9AD41EFA9FB60034DA68 /* icons8-about.png */; };
-		AC0B9ADC1EFAAA3E0034DA68 /* Icon-App-60x60@ 2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9ADB1EFAAA3E0034DA68 /* Icon-App-60x60@ 2x.png */; };
-		AC0B9ADF1EFAAC710034DA68 /* icons8-login_rounded_right.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9ADE1EFAAC710034DA68 /* icons8-login_rounded_right.png */; };
-		AC0B9AE91EFAC3910034DA68 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B9AE81EFAC3910034DA68 /* AboutViewController.swift */; };
-		AC2C73181F07FB1400197CFD /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C73171F07FB1400197CFD /* FAQViewController.swift */; };
-		AC2C731A1F0A448C00197CFD /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C73191F0A448C00197CFD /* ContactUsViewController.swift */; };
-		AC2C731C1F0A471300197CFD /* icons8-email.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2C731B1F0A471300197CFD /* icons8-email.png */; };
-		AC2C731E1F0A497100197CFD /* icons8-menu2.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2C731D1F0A497100197CFD /* icons8-menu2.png */; };
 		AC2C73201F0A59C400197CFD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2C731F1F0A59C400197CFD /* MessageUI.framework */; };
 		AC2C73221F0BBD7F00197CFD /* btn-contribute.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2C73211F0BBD7E00197CFD /* btn-contribute.png */; };
 		AC2C73241F0BBD8800197CFD /* bg-top.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2C73231F0BBD8800197CFD /* bg-top.png */; };
 		AC2C73261F0BBD8D00197CFD /* loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC2C73251F0BBD8D00197CFD /* loader.gif */; };
 		AC2C73281F0BCF0500197CFD /* bg-cropped.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2C73271F0BCF0500197CFD /* bg-cropped.png */; };
-		AC464D7E1EFFEDF2005DF5B9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC464D7D1EFFEDF2005DF5B9 /* TableViewController.swift */; };
-		ACC619E81F02964600B4F10A /* greencoin.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC619E51F02964600B4F10A /* greencoin.png */; };
-		ACC619EA1F02964600B4F10A /* logo-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACC619E71F02964600B4F10A /* logo-01.jpg */; };
-		ACC619EC1F02998C00B4F10A /* logo-01 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = ACC619EB1F02998C00B4F10A /* logo-01 (1).png */; };
+		AC5944A41F0EEF8100FACBF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC59449C1F0EEF8100FACBF1 /* AppDelegate.swift */; };
+		AC5944A51F0EEF8100FACBF1 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC59449D1F0EEF8100FACBF1 /* ContactUsViewController.swift */; };
+		AC5944A61F0EEF8100FACBF1 /* FacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC59449E1F0EEF8100FACBF1 /* FacebookViewController.swift */; };
+		AC5944A71F0EEF8100FACBF1 /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC59449F1F0EEF8100FACBF1 /* FAQViewController.swift */; };
+		AC5944A81F0EEF8100FACBF1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5944A11F0EEF8100FACBF1 /* TableViewController.swift */; };
+		AC5944A91F0EEF8100FACBF1 /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5944A21F0EEF8100FACBF1 /* TwitterViewController.swift */; };
+		AC5944AA1F0EEF8100FACBF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5944A31F0EEF8100FACBF1 /* ViewController.swift */; };
+		AC5944B51F0EEFB500FACBF1 /* greencoin.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5944AB1F0EEFB500FACBF1 /* greencoin.png */; };
+		AC5944B61F0EEFB500FACBF1 /* Icon-App-60x60@ 2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5944AC1F0EEFB500FACBF1 /* Icon-App-60x60@ 2x.png */; };
+		AC5944B71F0EEFB500FACBF1 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5944AD1F0EEFB500FACBF1 /* Icon-App-60x60@2x.png */; };
+		AC5944B81F0EEFB500FACBF1 /* icons8-about.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5944AE1F0EEFB500FACBF1 /* icons8-about.png */; };
+		AC5944B91F0EEFB500FACBF1 /* icons8-email2.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5944AF1F0EEFB500FACBF1 /* icons8-email2.png */; };
+		AC5944BA1F0EEFB500FACBF1 /* icons8-home.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5944B01F0EEFB500FACBF1 /* icons8-home.png */; };
+		AC5944BB1F0EEFB500FACBF1 /* icons8-login_rounded_right.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5944B11F0EEFB500FACBF1 /* icons8-login_rounded_right.png */; };
+		AC5944BC1F0EEFB500FACBF1 /* icons8-menu2.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5944B21F0EEFB500FACBF1 /* icons8-menu2.png */; };
+		AC5944BD1F0EEFB500FACBF1 /* logo-01 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = AC5944B31F0EEFB500FACBF1 /* logo-01 (1).png */; };
+		AC5944BE1F0EEFB500FACBF1 /* logo-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC5944B41F0EEFB500FACBF1 /* logo-01.jpg */; };
+		AC5944C51F0EEFC300FACBF1 /* icons8-email.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5944BF1F0EEFC300FACBF1 /* icons8-email.png */; };
+		AC5944C61F0EEFC300FACBF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5944C11F0EEFC300FACBF1 /* LaunchScreen.storyboard */; };
+		AC5944C71F0EEFC300FACBF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5944C31F0EEFC300FACBF1 /* Main.storyboard */; };
+		AC5944CE1F0EF15200FACBF1 /* icons8-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5944C81F0EF15200FACBF1 /* icons8-facebook.png */; };
+		AC5944CF1F0EF15200FACBF1 /* icons8-greentech.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5944C91F0EF15200FACBF1 /* icons8-greentech.png */; };
+		AC5944D01F0EF15200FACBF1 /* icons8-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5944CA1F0EF15200FACBF1 /* icons8-menu.png */; };
+		AC5944D11F0EF15200FACBF1 /* icons8-recycling.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5944CB1F0EF15200FACBF1 /* icons8-recycling.png */; };
+		AC5944D21F0EF15200FACBF1 /* icons8-share.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5944CC1F0EF15200FACBF1 /* icons8-share.png */; };
+		AC5944D31F0EF15200FACBF1 /* icons8-twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5944CD1F0EF15200FACBF1 /* icons8-twitter.png */; };
+		AC5944D51F0EF2DA00FACBF1 /* prln-cursor.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5944D41F0EF2DA00FACBF1 /* prln-cursor.png */; };
+		AC5944D71F0EF31900FACBF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5944D61F0EF31900FACBF1 /* Assets.xcassets */; };
+		AC6477AE1F0EF5D4009AA453 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6477AD1F0EF5D4009AA453 /* AboutViewController.swift */; };
 		F3E9431319F001C41BD41CB1 /* Pods_Greeneum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB02E8BEB9224F620E02B6B3 /* Pods_Greeneum.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,49 +71,43 @@
 		9BD22916E57AFAF5F41BCC1B /* Pods-GreeneumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreeneumTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GreeneumTests/Pods-GreeneumTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9C6557989B4DE85E8DE14C37 /* Pods_GreeneumUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreeneumUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0B99D81EF6B6650034DA68 /* Greeneum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greeneum.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC0B99DB1EF6B6650034DA68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC0B99E41EF6B6650034DA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AC0B99E61EF6B6650034DA68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AC0B99E91EF6B6650034DA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AC0B99EB1EF6B6650034DA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC0B99F01EF6B6650034DA68 /* GreeneumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreeneumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC0B99F41EF6B6650034DA68 /* SolarChangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarChangeTests.swift; sourceTree = "<group>"; };
-		AC0B99F61EF6B6650034DA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC0B99FB1EF6B6650034DA68 /* GreeneumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreeneumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC0B99FF1EF6B6650034DA68 /* SolarChangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarChangeUITests.swift; sourceTree = "<group>"; };
-		AC0B9A011EF6B6650034DA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC0B9A0F1EF6BEFC0034DA68 /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Source; path = "../../SlideMenuControllerSwift-master/Source"; sourceTree = "<group>"; };
-		AC0B9A111EF7CDC30034DA68 /* SolarChange-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SolarChange-Bridging-Header.h"; sourceTree = "<group>"; };
-		AC0B9A1F1EF91BE20034DA68 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC0B9A2D1EF9654D0034DA68 /* icons8-share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-share.png"; path = "../../icons8-share.png"; sourceTree = "<group>"; };
-		AC0B9A2E1EF9654D0034DA68 /* icons8-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-menu.png"; path = "../../icons8-menu.png"; sourceTree = "<group>"; };
-		AC0B9A2F1EF9654D0034DA68 /* icons8-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-facebook.png"; path = "../../icons8-facebook.png"; sourceTree = "<group>"; };
-		AC0B9A301EF9654D0034DA68 /* icons8-twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-twitter.png"; path = "../../icons8-twitter.png"; sourceTree = "<group>"; };
-		AC0B9A311EF9654D0034DA68 /* icons8-greentech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-greentech.png"; path = "../../icons8-greentech.png"; sourceTree = "<group>"; };
-		AC0B9A321EF9654D0034DA68 /* icons8-recycling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-recycling.png"; path = "../../icons8-recycling.png"; sourceTree = "<group>"; };
-		AC0B9A391EF96D640034DA68 /* TwitterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
-		AC0B9A3B1EF972910034DA68 /* logo-top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-top.png"; path = "../../Greeneum_files/logo-top.png"; sourceTree = "<group>"; };
-		AC0B9A3F1EF974F80034DA68 /* prln-cursor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "prln-cursor.png"; path = "../../Greeneum_files/prln-cursor.png"; sourceTree = "<group>"; };
-		AC0B9A411EF975210034DA68 /* decor-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "decor-2.png"; path = "../../Greeneum_files/decor-2.png"; sourceTree = "<group>"; };
-		AC0B9A4B1EF9839A0034DA68 /* FacebookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookViewController.swift; sourceTree = "<group>"; };
-		AC0B9AD31EFA9FB60034DA68 /* icons8-home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-home.png"; sourceTree = "<group>"; };
-		AC0B9AD41EFA9FB60034DA68 /* icons8-about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-about.png"; sourceTree = "<group>"; };
-		AC0B9ADB1EFAAA3E0034DA68 /* Icon-App-60x60@ 2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@ 2x.png"; sourceTree = "<group>"; };
-		AC0B9ADE1EFAAC710034DA68 /* icons8-login_rounded_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-login_rounded_right.png"; sourceTree = "<group>"; };
-		AC0B9AE81EFAC3910034DA68 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		AC2C73171F07FB1400197CFD /* FAQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
-		AC2C73191F0A448C00197CFD /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
-		AC2C731B1F0A471300197CFD /* icons8-email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-email.png"; sourceTree = "<group>"; };
-		AC2C731D1F0A497100197CFD /* icons8-menu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-menu2.png"; sourceTree = "<group>"; };
 		AC2C731F1F0A59C400197CFD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		AC2C73211F0BBD7E00197CFD /* btn-contribute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn-contribute.png"; path = "../../../../../Volumes/VMware Shared Folders/Shared OSX/btn-contribute.png"; sourceTree = "<group>"; };
 		AC2C73231F0BBD8800197CFD /* bg-top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg-top.png"; path = "../../../../../Volumes/VMware Shared Folders/Shared OSX/bg-top.png"; sourceTree = "<group>"; };
 		AC2C73251F0BBD8D00197CFD /* loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = loader.gif; path = "../../../../../Volumes/VMware Shared Folders/Shared OSX/loader.gif"; sourceTree = "<group>"; };
 		AC2C73271F0BCF0500197CFD /* bg-cropped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg-cropped.png"; path = "../../../../../Volumes/VMware Shared Folders/Shared OSX/bg-cropped.png"; sourceTree = "<group>"; };
-		AC464D7D1EFFEDF2005DF5B9 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		ACC619E51F02964600B4F10A /* greencoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greencoin.png; sourceTree = "<group>"; };
-		ACC619E71F02964600B4F10A /* logo-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-01.jpg"; sourceTree = "<group>"; };
-		ACC619EB1F02998C00B4F10A /* logo-01 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-01 (1).png"; sourceTree = "<group>"; };
+		AC59449C1F0EEF8100FACBF1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Greeneum/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		AC59449D1F0EEF8100FACBF1 /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactUsViewController.swift; path = Greeneum/ContactUsViewController.swift; sourceTree = SOURCE_ROOT; };
+		AC59449E1F0EEF8100FACBF1 /* FacebookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FacebookViewController.swift; path = Greeneum/FacebookViewController.swift; sourceTree = SOURCE_ROOT; };
+		AC59449F1F0EEF8100FACBF1 /* FAQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FAQViewController.swift; path = Greeneum/FAQViewController.swift; sourceTree = SOURCE_ROOT; };
+		AC5944A01F0EEF8100FACBF1 /* Greeneum-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Greeneum-Bridging-Header.h"; path = "Greeneum/Greeneum-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		AC5944A11F0EEF8100FACBF1 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = Greeneum/TableViewController.swift; sourceTree = SOURCE_ROOT; };
+		AC5944A21F0EEF8100FACBF1 /* TwitterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitterViewController.swift; path = Greeneum/TwitterViewController.swift; sourceTree = SOURCE_ROOT; };
+		AC5944A31F0EEF8100FACBF1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Greeneum/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		AC5944AB1F0EEFB500FACBF1 /* greencoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greencoin.png; path = Greeneum/greencoin.png; sourceTree = SOURCE_ROOT; };
+		AC5944AC1F0EEFB500FACBF1 /* Icon-App-60x60@ 2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-60x60@ 2x.png"; path = "Greeneum/Icon-App-60x60@ 2x.png"; sourceTree = SOURCE_ROOT; };
+		AC5944AD1F0EEFB500FACBF1 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-App-60x60@2x.png"; path = "Greeneum/Icon-App-60x60@2x.png"; sourceTree = SOURCE_ROOT; };
+		AC5944AE1F0EEFB500FACBF1 /* icons8-about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-about.png"; path = "Greeneum/icons8-about.png"; sourceTree = SOURCE_ROOT; };
+		AC5944AF1F0EEFB500FACBF1 /* icons8-email2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-email2.png"; path = "Greeneum/icons8-email2.png"; sourceTree = SOURCE_ROOT; };
+		AC5944B01F0EEFB500FACBF1 /* icons8-home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-home.png"; path = "Greeneum/icons8-home.png"; sourceTree = SOURCE_ROOT; };
+		AC5944B11F0EEFB500FACBF1 /* icons8-login_rounded_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-login_rounded_right.png"; path = "Greeneum/icons8-login_rounded_right.png"; sourceTree = SOURCE_ROOT; };
+		AC5944B21F0EEFB500FACBF1 /* icons8-menu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-menu2.png"; path = "Greeneum/icons8-menu2.png"; sourceTree = SOURCE_ROOT; };
+		AC5944B31F0EEFB500FACBF1 /* logo-01 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-01 (1).png"; path = "Greeneum/logo-01 (1).png"; sourceTree = SOURCE_ROOT; };
+		AC5944B41F0EEFB500FACBF1 /* logo-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "logo-01.jpg"; path = "Greeneum/logo-01.jpg"; sourceTree = SOURCE_ROOT; };
+		AC5944C01F0EEFC300FACBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Greeneum/Base.lproj/icons8-email.png"; sourceTree = SOURCE_ROOT; };
+		AC5944C21F0EEFC300FACBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Greeneum/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		AC5944C41F0EEFC300FACBF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Greeneum/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		AC5944C81F0EF15200FACBF1 /* icons8-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-facebook.png"; path = "Greeneum/icons8-facebook.png"; sourceTree = SOURCE_ROOT; };
+		AC5944C91F0EF15200FACBF1 /* icons8-greentech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-greentech.png"; path = "Greeneum/icons8-greentech.png"; sourceTree = SOURCE_ROOT; };
+		AC5944CA1F0EF15200FACBF1 /* icons8-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-menu.png"; path = "Greeneum/icons8-menu.png"; sourceTree = SOURCE_ROOT; };
+		AC5944CB1F0EF15200FACBF1 /* icons8-recycling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-recycling.png"; path = "Greeneum/icons8-recycling.png"; sourceTree = SOURCE_ROOT; };
+		AC5944CC1F0EF15200FACBF1 /* icons8-share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-share.png"; path = "Greeneum/icons8-share.png"; sourceTree = SOURCE_ROOT; };
+		AC5944CD1F0EF15200FACBF1 /* icons8-twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-twitter.png"; path = "Greeneum/icons8-twitter.png"; sourceTree = SOURCE_ROOT; };
+		AC5944D41F0EF2DA00FACBF1 /* prln-cursor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "prln-cursor.png"; path = "Greeneum/prln-cursor.png"; sourceTree = SOURCE_ROOT; };
+		AC5944D61F0EF31900FACBF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Greeneum/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		AC6477AB1F0EF418009AA453 /* GreeneumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreeneumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6477AC1F0EF418009AA453 /* GreeneumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreeneumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6477AD1F0EF5D4009AA453 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = Greeneum/AboutViewController.swift; sourceTree = SOURCE_ROOT; };
 		B0224084E28ED90BB5AA7D5B /* Pods-Greeneum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greeneum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Greeneum/Pods-Greeneum.debug.xcconfig"; sourceTree = "<group>"; };
 		DCDE4FD7B7CEED091CA71548 /* Pods_GreeneumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreeneumTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB02E8BEB9224F620E02B6B3 /* Pods_Greeneum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Greeneum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,8 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				AC0B99DA1EF6B6650034DA68 /* Greeneum */,
-				AC0B99F31EF6B6650034DA68 /* SolarChangeTests */,
-				AC0B99FE1EF6B6650034DA68 /* SolarChangeUITests */,
 				AC0B99D91EF6B6650034DA68 /* Greeneum */,
 				5978EA56FE022854CB7FCF90 /* Pods */,
 				F1C63EA9146BDAD73F18AD9B /* Frameworks */,
@@ -180,8 +169,8 @@
 			isa = PBXGroup;
 			children = (
 				AC0B99D81EF6B6650034DA68 /* Greeneum.app */,
-				AC0B99F01EF6B6650034DA68 /* GreeneumTests.xctest */,
-				AC0B99FB1EF6B6650034DA68 /* GreeneumUITests.xctest */,
+				AC6477AB1F0EF418009AA453 /* GreeneumTests.xctest */,
+				AC6477AC1F0EF418009AA453 /* GreeneumUITests.xctest */,
 			);
 			name = Greeneum;
 			sourceTree = "<group>";
@@ -189,69 +178,49 @@
 		AC0B99DA1EF6B6650034DA68 /* Greeneum */ = {
 			isa = PBXGroup;
 			children = (
+				AC59449C1F0EEF8100FACBF1 /* AppDelegate.swift */,
+				AC59449D1F0EEF8100FACBF1 /* ContactUsViewController.swift */,
+				AC59449E1F0EEF8100FACBF1 /* FacebookViewController.swift */,
+				AC59449F1F0EEF8100FACBF1 /* FAQViewController.swift */,
+				AC5944C11F0EEFC300FACBF1 /* LaunchScreen.storyboard */,
+				AC5944C31F0EEFC300FACBF1 /* Main.storyboard */,
+				AC6477AD1F0EF5D4009AA453 /* AboutViewController.swift */,
+				AC5944A01F0EEF8100FACBF1 /* Greeneum-Bridging-Header.h */,
+				AC5944D61F0EF31900FACBF1 /* Assets.xcassets */,
+				AC5944A11F0EEF8100FACBF1 /* TableViewController.swift */,
+				AC5944A21F0EEF8100FACBF1 /* TwitterViewController.swift */,
+				AC5944A31F0EEF8100FACBF1 /* ViewController.swift */,
 				AC0B9ADD1EFAAC210034DA68 /* Images */,
-				AC0B99DB1EF6B6650034DA68 /* AppDelegate.swift */,
-				AC0B9A0F1EF6BEFC0034DA68 /* Source */,
-				AC0B99E31EF6B6650034DA68 /* Main.storyboard */,
-				AC2C73171F07FB1400197CFD /* FAQViewController.swift */,
-				AC2C73191F0A448C00197CFD /* ContactUsViewController.swift */,
-				AC464D7D1EFFEDF2005DF5B9 /* TableViewController.swift */,
-				AC0B9A4B1EF9839A0034DA68 /* FacebookViewController.swift */,
-				AC0B9A391EF96D640034DA68 /* TwitterViewController.swift */,
-				AC0B9A1F1EF91BE20034DA68 /* ViewController.swift */,
-				AC0B9AE81EFAC3910034DA68 /* AboutViewController.swift */,
-				AC0B99E61EF6B6650034DA68 /* Assets.xcassets */,
-				AC0B99E81EF6B6650034DA68 /* LaunchScreen.storyboard */,
-				AC0B99EB1EF6B6650034DA68 /* Info.plist */,
-				AC0B9A111EF7CDC30034DA68 /* SolarChange-Bridging-Header.h */,
 			);
 			name = Greeneum;
 			path = SolarChange;
 			sourceTree = "<group>";
 		};
-		AC0B99F31EF6B6650034DA68 /* SolarChangeTests */ = {
-			isa = PBXGroup;
-			children = (
-				AC0B99F41EF6B6650034DA68 /* SolarChangeTests.swift */,
-				AC0B99F61EF6B6650034DA68 /* Info.plist */,
-			);
-			path = SolarChangeTests;
-			sourceTree = "<group>";
-		};
-		AC0B99FE1EF6B6650034DA68 /* SolarChangeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AC0B99FF1EF6B6650034DA68 /* SolarChangeUITests.swift */,
-				AC0B9A011EF6B6650034DA68 /* Info.plist */,
-			);
-			path = SolarChangeUITests;
-			sourceTree = "<group>";
-		};
 		AC0B9ADD1EFAAC210034DA68 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				AC0B9A411EF975210034DA68 /* decor-2.png */,
-				AC0B9A2E1EF9654D0034DA68 /* icons8-menu.png */,
-				AC0B9A3B1EF972910034DA68 /* logo-top.png */,
-				AC0B9AD41EFA9FB60034DA68 /* icons8-about.png */,
-				AC2C731B1F0A471300197CFD /* icons8-email.png */,
 				AC2C73231F0BBD8800197CFD /* bg-top.png */,
-				ACC619E51F02964600B4F10A /* greencoin.png */,
 				AC2C73271F0BCF0500197CFD /* bg-cropped.png */,
+				AC5944AB1F0EEFB500FACBF1 /* greencoin.png */,
+				AC5944BF1F0EEFC300FACBF1 /* icons8-email.png */,
+				AC5944AC1F0EEFB500FACBF1 /* Icon-App-60x60@ 2x.png */,
+				AC5944AD1F0EEFB500FACBF1 /* Icon-App-60x60@2x.png */,
+				AC5944C81F0EF15200FACBF1 /* icons8-facebook.png */,
+				AC5944D41F0EF2DA00FACBF1 /* prln-cursor.png */,
+				AC5944C91F0EF15200FACBF1 /* icons8-greentech.png */,
+				AC5944CA1F0EF15200FACBF1 /* icons8-menu.png */,
+				AC5944CB1F0EF15200FACBF1 /* icons8-recycling.png */,
+				AC5944CC1F0EF15200FACBF1 /* icons8-share.png */,
+				AC5944CD1F0EF15200FACBF1 /* icons8-twitter.png */,
+				AC5944AE1F0EEFB500FACBF1 /* icons8-about.png */,
+				AC5944AF1F0EEFB500FACBF1 /* icons8-email2.png */,
+				AC5944B01F0EEFB500FACBF1 /* icons8-home.png */,
+				AC5944B11F0EEFB500FACBF1 /* icons8-login_rounded_right.png */,
+				AC5944B21F0EEFB500FACBF1 /* icons8-menu2.png */,
+				AC5944B31F0EEFB500FACBF1 /* logo-01 (1).png */,
+				AC5944B41F0EEFB500FACBF1 /* logo-01.jpg */,
 				AC2C73251F0BBD8D00197CFD /* loader.gif */,
-				ACC619E71F02964600B4F10A /* logo-01.jpg */,
 				AC2C73211F0BBD7E00197CFD /* btn-contribute.png */,
-				AC0B9ADE1EFAAC710034DA68 /* icons8-login_rounded_right.png */,
-				AC2C731D1F0A497100197CFD /* icons8-menu2.png */,
-				ACC619EB1F02998C00B4F10A /* logo-01 (1).png */,
-				AC0B9A2D1EF9654D0034DA68 /* icons8-share.png */,
-				AC0B9AD31EFA9FB60034DA68 /* icons8-home.png */,
-				AC0B9A3F1EF974F80034DA68 /* prln-cursor.png */,
-				AC0B9A2F1EF9654D0034DA68 /* icons8-facebook.png */,
-				AC0B9ADB1EFAAA3E0034DA68 /* Icon-App-60x60@ 2x.png */,
-				AC0B9A301EF9654D0034DA68 /* icons8-twitter.png */,
-				AC0B9A311EF9654D0034DA68 /* icons8-greentech.png */,
-				AC0B9A321EF9654D0034DA68 /* icons8-recycling.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -308,7 +277,7 @@
 			);
 			name = GreeneumTests;
 			productName = SolarChangeTests;
-			productReference = AC0B99F01EF6B6650034DA68 /* GreeneumTests.xctest */;
+			productReference = AC6477AB1F0EF418009AA453 /* GreeneumTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		AC0B99FA1EF6B6650034DA68 /* GreeneumUITests */ = {
@@ -329,7 +298,7 @@
 			);
 			name = GreeneumUITests;
 			productName = SolarChangeUITests;
-			productReference = AC0B99FB1EF6B6650034DA68 /* GreeneumUITests.xctest */;
+			productReference = AC6477AC1F0EF418009AA453 /* GreeneumUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -387,32 +356,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC0B9A3C1EF972910034DA68 /* logo-top.png in Resources */,
-				AC0B9A361EF9654D0034DA68 /* icons8-twitter.png in Resources */,
-				AC2C731E1F0A497100197CFD /* icons8-menu2.png in Resources */,
-				AC0B9A101EF6BEFC0034DA68 /* Source in Resources */,
-				AC0B9A351EF9654D0034DA68 /* icons8-facebook.png in Resources */,
-				AC0B9ADC1EFAAA3E0034DA68 /* Icon-App-60x60@ 2x.png in Resources */,
-				AC0B9A381EF9654D0034DA68 /* icons8-recycling.png in Resources */,
-				AC0B9A371EF9654D0034DA68 /* icons8-greentech.png in Resources */,
-				AC0B9ADF1EFAAC710034DA68 /* icons8-login_rounded_right.png in Resources */,
-				AC0B9A421EF975210034DA68 /* decor-2.png in Resources */,
-				AC0B9A401EF974F80034DA68 /* prln-cursor.png in Resources */,
-				ACC619E81F02964600B4F10A /* greencoin.png in Resources */,
+				AC5944D01F0EF15200FACBF1 /* icons8-menu.png in Resources */,
+				AC5944BD1F0EEFB500FACBF1 /* logo-01 (1).png in Resources */,
 				AC2C73281F0BCF0500197CFD /* bg-cropped.png in Resources */,
-				AC0B9A331EF9654D0034DA68 /* icons8-share.png in Resources */,
-				AC2C731C1F0A471300197CFD /* icons8-email.png in Resources */,
+				AC5944B61F0EEFB500FACBF1 /* Icon-App-60x60@ 2x.png in Resources */,
+				AC5944CE1F0EF15200FACBF1 /* icons8-facebook.png in Resources */,
+				AC5944CF1F0EF15200FACBF1 /* icons8-greentech.png in Resources */,
+				AC5944B51F0EEFB500FACBF1 /* greencoin.png in Resources */,
+				AC5944D11F0EF15200FACBF1 /* icons8-recycling.png in Resources */,
+				AC5944B91F0EEFB500FACBF1 /* icons8-email2.png in Resources */,
+				AC5944D51F0EF2DA00FACBF1 /* prln-cursor.png in Resources */,
+				AC5944BB1F0EEFB500FACBF1 /* icons8-login_rounded_right.png in Resources */,
+				AC5944C71F0EEFC300FACBF1 /* Main.storyboard in Resources */,
+				AC5944C51F0EEFC300FACBF1 /* icons8-email.png in Resources */,
+				AC5944B71F0EEFB500FACBF1 /* Icon-App-60x60@2x.png in Resources */,
 				AC2C73241F0BBD8800197CFD /* bg-top.png in Resources */,
-				AC0B99EA1EF6B6650034DA68 /* LaunchScreen.storyboard in Resources */,
-				AC0B9AD51EFA9FB60034DA68 /* icons8-home.png in Resources */,
-				AC0B9A341EF9654D0034DA68 /* icons8-menu.png in Resources */,
-				ACC619EC1F02998C00B4F10A /* logo-01 (1).png in Resources */,
-				AC0B99E71EF6B6650034DA68 /* Assets.xcassets in Resources */,
+				AC5944C61F0EEFC300FACBF1 /* LaunchScreen.storyboard in Resources */,
 				AC2C73221F0BBD7F00197CFD /* btn-contribute.png in Resources */,
-				ACC619EA1F02964600B4F10A /* logo-01.jpg in Resources */,
-				AC0B99E51EF6B6650034DA68 /* Main.storyboard in Resources */,
 				AC2C73261F0BBD8D00197CFD /* loader.gif in Resources */,
-				AC0B9AD61EFA9FB60034DA68 /* icons8-about.png in Resources */,
+				AC5944BA1F0EEFB500FACBF1 /* icons8-home.png in Resources */,
+				AC5944BE1F0EEFB500FACBF1 /* logo-01.jpg in Resources */,
+				AC5944D21F0EF15200FACBF1 /* icons8-share.png in Resources */,
+				AC5944D31F0EF15200FACBF1 /* icons8-twitter.png in Resources */,
+				AC5944B81F0EEFB500FACBF1 /* icons8-about.png in Resources */,
+				AC5944BC1F0EEFB500FACBF1 /* icons8-menu2.png in Resources */,
+				AC5944D71F0EF31900FACBF1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,14 +543,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC0B9AE91EFAC3910034DA68 /* AboutViewController.swift in Sources */,
-				AC464D7E1EFFEDF2005DF5B9 /* TableViewController.swift in Sources */,
-				AC0B9A201EF91BE20034DA68 /* ViewController.swift in Sources */,
-				AC2C731A1F0A448C00197CFD /* ContactUsViewController.swift in Sources */,
-				AC0B9A4C1EF9839A0034DA68 /* FacebookViewController.swift in Sources */,
-				AC2C73181F07FB1400197CFD /* FAQViewController.swift in Sources */,
-				AC0B99DC1EF6B6650034DA68 /* AppDelegate.swift in Sources */,
-				AC0B9A3A1EF96D640034DA68 /* TwitterViewController.swift in Sources */,
+				AC5944A91F0EEF8100FACBF1 /* TwitterViewController.swift in Sources */,
+				AC5944A41F0EEF8100FACBF1 /* AppDelegate.swift in Sources */,
+				AC5944A71F0EEF8100FACBF1 /* FAQViewController.swift in Sources */,
+				AC5944A51F0EEF8100FACBF1 /* ContactUsViewController.swift in Sources */,
+				AC5944AA1F0EEF8100FACBF1 /* ViewController.swift in Sources */,
+				AC5944A81F0EEF8100FACBF1 /* TableViewController.swift in Sources */,
+				AC6477AE1F0EF5D4009AA453 /* AboutViewController.swift in Sources */,
+				AC5944A61F0EEF8100FACBF1 /* FacebookViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,7 +558,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC0B99F51EF6B6650034DA68 /* SolarChangeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,7 +565,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC0B9A001EF6B6650034DA68 /* SolarChangeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,20 +584,28 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AC0B99E31EF6B6650034DA68 /* Main.storyboard */ = {
+		AC5944BF1F0EEFC300FACBF1 /* icons8-email.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AC0B99E41EF6B6650034DA68 /* Base */,
+				AC5944C01F0EEFC300FACBF1 /* Base */,
 			);
-			name = Main.storyboard;
+			name = "icons8-email.png";
 			sourceTree = "<group>";
 		};
-		AC0B99E81EF6B6650034DA68 /* LaunchScreen.storyboard */ = {
+		AC5944C11F0EEFC300FACBF1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AC0B99E91EF6B6650034DA68 /* Base */,
+				AC5944C21F0EEFC300FACBF1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AC5944C31F0EEFC300FACBF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC5944C41F0EEFC300FACBF1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -754,13 +728,13 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/SolarChange",
 				);
-				INFOPLIST_FILE = SolarChange/Info.plist;
+				INFOPLIST_FILE = Greeneum/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = Greeneum.GreeneumApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SolarChange/SolarChange-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Greeneum/Greeneum-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -777,13 +751,13 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/SolarChange",
 				);
-				INFOPLIST_FILE = SolarChange/Info.plist;
+				INFOPLIST_FILE = Greeneum/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = Greeneum.GreeneumApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SolarChange/SolarChange-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Greeneum/Greeneum-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
