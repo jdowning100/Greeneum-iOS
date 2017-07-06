@@ -1,0 +1,6 @@
+framework module SwiftMandrill {
+  umbrella header "SwiftMandrill-umbrella.h"
+
+  export *
+  module * { export * }
+}

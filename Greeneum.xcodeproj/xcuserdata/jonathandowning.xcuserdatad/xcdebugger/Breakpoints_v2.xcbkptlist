@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SolarChange/AppDelegate.swift"
+            timestampString = "519750393.382268"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SolarChange.AppDelegate.__deallocating_deinit"
+                  moduleName = "SolarChange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathandowning/Desktop/SolarChange/SolarChange/AppDelegate.swift"
+                  timestampString = "519662713.662395"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SolarChange.AppDelegate.init () -&gt; SolarChange.AppDelegate"
+                  moduleName = "SolarChange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathandowning/Desktop/SolarChange/SolarChange/AppDelegate.swift"
+                  timestampString = "519662713.681479"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SolarChange.AppDelegate.__allocating_init () -&gt; SolarChange.AppDelegate"
+                  moduleName = "SolarChange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathandowning/Desktop/SolarChange/SolarChange/AppDelegate.swift"
+                  timestampString = "519662713.697697"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "SolarChange"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathandowning/Desktop/SolarChange/SolarChange/AppDelegate.swift"
+                  timestampString = "519662713.717268"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

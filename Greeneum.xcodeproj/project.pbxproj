@@ -1,0 +1,895 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FE479FF31F906393A9A6236 /* Pods_GreeneumUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C6557989B4DE85E8DE14C37 /* Pods_GreeneumUITests.framework */; };
+		706F728BDD4DA37693E0C3B5 /* Pods_GreeneumTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDE4FD7B7CEED091CA71548 /* Pods_GreeneumTests.framework */; };
+		AC0B99DC1EF6B6650034DA68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B99DB1EF6B6650034DA68 /* AppDelegate.swift */; };
+		AC0B99E51EF6B6650034DA68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0B99E31EF6B6650034DA68 /* Main.storyboard */; };
+		AC0B99E71EF6B6650034DA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0B99E61EF6B6650034DA68 /* Assets.xcassets */; };
+		AC0B99EA1EF6B6650034DA68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0B99E81EF6B6650034DA68 /* LaunchScreen.storyboard */; };
+		AC0B99F51EF6B6650034DA68 /* SolarChangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B99F41EF6B6650034DA68 /* SolarChangeTests.swift */; };
+		AC0B9A001EF6B6650034DA68 /* SolarChangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B99FF1EF6B6650034DA68 /* SolarChangeUITests.swift */; };
+		AC0B9A101EF6BEFC0034DA68 /* Source in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9A0F1EF6BEFC0034DA68 /* Source */; };
+		AC0B9A201EF91BE20034DA68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B9A1F1EF91BE20034DA68 /* ViewController.swift */; };
+		AC0B9A331EF9654D0034DA68 /* icons8-share.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9A2D1EF9654D0034DA68 /* icons8-share.png */; };
+		AC0B9A341EF9654D0034DA68 /* icons8-menu.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9A2E1EF9654D0034DA68 /* icons8-menu.png */; };
+		AC0B9A351EF9654D0034DA68 /* icons8-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9A2F1EF9654D0034DA68 /* icons8-facebook.png */; };
+		AC0B9A361EF9654D0034DA68 /* icons8-twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9A301EF9654D0034DA68 /* icons8-twitter.png */; };
+		AC0B9A371EF9654D0034DA68 /* icons8-greentech.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9A311EF9654D0034DA68 /* icons8-greentech.png */; };
+		AC0B9A381EF9654D0034DA68 /* icons8-recycling.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9A321EF9654D0034DA68 /* icons8-recycling.png */; };
+		AC0B9A3A1EF96D640034DA68 /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B9A391EF96D640034DA68 /* TwitterViewController.swift */; };
+		AC0B9A3C1EF972910034DA68 /* logo-top.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9A3B1EF972910034DA68 /* logo-top.png */; };
+		AC0B9A401EF974F80034DA68 /* prln-cursor.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9A3F1EF974F80034DA68 /* prln-cursor.png */; };
+		AC0B9A421EF975210034DA68 /* decor-2.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9A411EF975210034DA68 /* decor-2.png */; };
+		AC0B9A4C1EF9839A0034DA68 /* FacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B9A4B1EF9839A0034DA68 /* FacebookViewController.swift */; };
+		AC0B9AD51EFA9FB60034DA68 /* icons8-home.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9AD31EFA9FB60034DA68 /* icons8-home.png */; };
+		AC0B9AD61EFA9FB60034DA68 /* icons8-about.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9AD41EFA9FB60034DA68 /* icons8-about.png */; };
+		AC0B9ADC1EFAAA3E0034DA68 /* Icon-App-60x60@ 2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9ADB1EFAAA3E0034DA68 /* Icon-App-60x60@ 2x.png */; };
+		AC0B9ADF1EFAAC710034DA68 /* icons8-login_rounded_right.png in Resources */ = {isa = PBXBuildFile; fileRef = AC0B9ADE1EFAAC710034DA68 /* icons8-login_rounded_right.png */; };
+		AC0B9AE91EFAC3910034DA68 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0B9AE81EFAC3910034DA68 /* AboutViewController.swift */; };
+		AC2C73181F07FB1400197CFD /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C73171F07FB1400197CFD /* FAQViewController.swift */; };
+		AC2C731A1F0A448C00197CFD /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2C73191F0A448C00197CFD /* ContactUsViewController.swift */; };
+		AC2C731C1F0A471300197CFD /* icons8-email.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2C731B1F0A471300197CFD /* icons8-email.png */; };
+		AC2C731E1F0A497100197CFD /* icons8-menu2.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2C731D1F0A497100197CFD /* icons8-menu2.png */; };
+		AC2C73201F0A59C400197CFD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2C731F1F0A59C400197CFD /* MessageUI.framework */; };
+		AC2C73221F0BBD7F00197CFD /* btn-contribute.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2C73211F0BBD7E00197CFD /* btn-contribute.png */; };
+		AC2C73241F0BBD8800197CFD /* bg-top.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2C73231F0BBD8800197CFD /* bg-top.png */; };
+		AC2C73261F0BBD8D00197CFD /* loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = AC2C73251F0BBD8D00197CFD /* loader.gif */; };
+		AC2C73281F0BCF0500197CFD /* bg-cropped.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2C73271F0BCF0500197CFD /* bg-cropped.png */; };
+		AC464D7E1EFFEDF2005DF5B9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC464D7D1EFFEDF2005DF5B9 /* TableViewController.swift */; };
+		ACC619E81F02964600B4F10A /* greencoin.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC619E51F02964600B4F10A /* greencoin.png */; };
+		ACC619EA1F02964600B4F10A /* logo-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ACC619E71F02964600B4F10A /* logo-01.jpg */; };
+		ACC619EC1F02998C00B4F10A /* logo-01 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = ACC619EB1F02998C00B4F10A /* logo-01 (1).png */; };
+		F3E9431319F001C41BD41CB1 /* Pods_Greeneum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB02E8BEB9224F620E02B6B3 /* Pods_Greeneum.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC0B99F11EF6B6650034DA68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0B99D01EF6B6650034DA68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0B99D71EF6B6650034DA68;
+			remoteInfo = SolarChange;
+		};
+		AC0B99FC1EF6B6650034DA68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0B99D01EF6B6650034DA68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0B99D71EF6B6650034DA68;
+			remoteInfo = SolarChange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EA6B0192C037E8B3DA78B7C /* Pods-GreeneumUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreeneumUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GreeneumUITests/Pods-GreeneumUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F8707B019854F8F80BAF81E /* Pods-GreeneumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreeneumTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GreeneumTests/Pods-GreeneumTests.release.xcconfig"; sourceTree = "<group>"; };
+		8791625F71F66AFBCBE75F58 /* Pods-Greeneum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greeneum.release.xcconfig"; path = "Pods/Target Support Files/Pods-Greeneum/Pods-Greeneum.release.xcconfig"; sourceTree = "<group>"; };
+		997CCFFF378FFF09398C4250 /* Pods-GreeneumUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreeneumUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GreeneumUITests/Pods-GreeneumUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9BD22916E57AFAF5F41BCC1B /* Pods-GreeneumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreeneumTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GreeneumTests/Pods-GreeneumTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C6557989B4DE85E8DE14C37 /* Pods_GreeneumUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreeneumUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0B99D81EF6B6650034DA68 /* Greeneum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greeneum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0B99DB1EF6B6650034DA68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC0B99E41EF6B6650034DA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC0B99E61EF6B6650034DA68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC0B99E91EF6B6650034DA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC0B99EB1EF6B6650034DA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0B99F01EF6B6650034DA68 /* GreeneumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreeneumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0B99F41EF6B6650034DA68 /* SolarChangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarChangeTests.swift; sourceTree = "<group>"; };
+		AC0B99F61EF6B6650034DA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0B99FB1EF6B6650034DA68 /* GreeneumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreeneumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0B99FF1EF6B6650034DA68 /* SolarChangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarChangeUITests.swift; sourceTree = "<group>"; };
+		AC0B9A011EF6B6650034DA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0B9A0F1EF6BEFC0034DA68 /* Source */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Source; path = "../../SlideMenuControllerSwift-master/Source"; sourceTree = "<group>"; };
+		AC0B9A111EF7CDC30034DA68 /* SolarChange-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SolarChange-Bridging-Header.h"; sourceTree = "<group>"; };
+		AC0B9A1F1EF91BE20034DA68 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC0B9A2D1EF9654D0034DA68 /* icons8-share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-share.png"; path = "../../icons8-share.png"; sourceTree = "<group>"; };
+		AC0B9A2E1EF9654D0034DA68 /* icons8-menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-menu.png"; path = "../../icons8-menu.png"; sourceTree = "<group>"; };
+		AC0B9A2F1EF9654D0034DA68 /* icons8-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-facebook.png"; path = "../../icons8-facebook.png"; sourceTree = "<group>"; };
+		AC0B9A301EF9654D0034DA68 /* icons8-twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-twitter.png"; path = "../../icons8-twitter.png"; sourceTree = "<group>"; };
+		AC0B9A311EF9654D0034DA68 /* icons8-greentech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-greentech.png"; path = "../../icons8-greentech.png"; sourceTree = "<group>"; };
+		AC0B9A321EF9654D0034DA68 /* icons8-recycling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-recycling.png"; path = "../../icons8-recycling.png"; sourceTree = "<group>"; };
+		AC0B9A391EF96D640034DA68 /* TwitterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
+		AC0B9A3B1EF972910034DA68 /* logo-top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-top.png"; path = "../../Greeneum_files/logo-top.png"; sourceTree = "<group>"; };
+		AC0B9A3F1EF974F80034DA68 /* prln-cursor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "prln-cursor.png"; path = "../../Greeneum_files/prln-cursor.png"; sourceTree = "<group>"; };
+		AC0B9A411EF975210034DA68 /* decor-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "decor-2.png"; path = "../../Greeneum_files/decor-2.png"; sourceTree = "<group>"; };
+		AC0B9A4B1EF9839A0034DA68 /* FacebookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookViewController.swift; sourceTree = "<group>"; };
+		AC0B9AD31EFA9FB60034DA68 /* icons8-home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-home.png"; sourceTree = "<group>"; };
+		AC0B9AD41EFA9FB60034DA68 /* icons8-about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-about.png"; sourceTree = "<group>"; };
+		AC0B9ADB1EFAAA3E0034DA68 /* Icon-App-60x60@ 2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@ 2x.png"; sourceTree = "<group>"; };
+		AC0B9ADE1EFAAC710034DA68 /* icons8-login_rounded_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-login_rounded_right.png"; sourceTree = "<group>"; };
+		AC0B9AE81EFAC3910034DA68 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		AC2C73171F07FB1400197CFD /* FAQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
+		AC2C73191F0A448C00197CFD /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		AC2C731B1F0A471300197CFD /* icons8-email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-email.png"; sourceTree = "<group>"; };
+		AC2C731D1F0A497100197CFD /* icons8-menu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-menu2.png"; sourceTree = "<group>"; };
+		AC2C731F1F0A59C400197CFD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		AC2C73211F0BBD7E00197CFD /* btn-contribute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "btn-contribute.png"; path = "../../../../../Volumes/VMware Shared Folders/Shared OSX/btn-contribute.png"; sourceTree = "<group>"; };
+		AC2C73231F0BBD8800197CFD /* bg-top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg-top.png"; path = "../../../../../Volumes/VMware Shared Folders/Shared OSX/bg-top.png"; sourceTree = "<group>"; };
+		AC2C73251F0BBD8D00197CFD /* loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = loader.gif; path = "../../../../../Volumes/VMware Shared Folders/Shared OSX/loader.gif"; sourceTree = "<group>"; };
+		AC2C73271F0BCF0500197CFD /* bg-cropped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg-cropped.png"; path = "../../../../../Volumes/VMware Shared Folders/Shared OSX/bg-cropped.png"; sourceTree = "<group>"; };
+		AC464D7D1EFFEDF2005DF5B9 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		ACC619E51F02964600B4F10A /* greencoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greencoin.png; sourceTree = "<group>"; };
+		ACC619E71F02964600B4F10A /* logo-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logo-01.jpg"; sourceTree = "<group>"; };
+		ACC619EB1F02998C00B4F10A /* logo-01 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-01 (1).png"; sourceTree = "<group>"; };
+		B0224084E28ED90BB5AA7D5B /* Pods-Greeneum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greeneum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Greeneum/Pods-Greeneum.debug.xcconfig"; sourceTree = "<group>"; };
+		DCDE4FD7B7CEED091CA71548 /* Pods_GreeneumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreeneumTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB02E8BEB9224F620E02B6B3 /* Pods_Greeneum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Greeneum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0B99D51EF6B6650034DA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC2C73201F0A59C400197CFD /* MessageUI.framework in Frameworks */,
+				F3E9431319F001C41BD41CB1 /* Pods_Greeneum.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0B99ED1EF6B6650034DA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706F728BDD4DA37693E0C3B5 /* Pods_GreeneumTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0B99F81EF6B6650034DA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE479FF31F906393A9A6236 /* Pods_GreeneumUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5978EA56FE022854CB7FCF90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0224084E28ED90BB5AA7D5B /* Pods-Greeneum.debug.xcconfig */,
+				8791625F71F66AFBCBE75F58 /* Pods-Greeneum.release.xcconfig */,
+				9BD22916E57AFAF5F41BCC1B /* Pods-GreeneumTests.debug.xcconfig */,
+				5F8707B019854F8F80BAF81E /* Pods-GreeneumTests.release.xcconfig */,
+				2EA6B0192C037E8B3DA78B7C /* Pods-GreeneumUITests.debug.xcconfig */,
+				997CCFFF378FFF09398C4250 /* Pods-GreeneumUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC0B99CF1EF6B6650034DA68 = {
+			isa = PBXGroup;
+			children = (
+				AC0B99DA1EF6B6650034DA68 /* Greeneum */,
+				AC0B99F31EF6B6650034DA68 /* SolarChangeTests */,
+				AC0B99FE1EF6B6650034DA68 /* SolarChangeUITests */,
+				AC0B99D91EF6B6650034DA68 /* Greeneum */,
+				5978EA56FE022854CB7FCF90 /* Pods */,
+				F1C63EA9146BDAD73F18AD9B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0B99D91EF6B6650034DA68 /* Greeneum */ = {
+			isa = PBXGroup;
+			children = (
+				AC0B99D81EF6B6650034DA68 /* Greeneum.app */,
+				AC0B99F01EF6B6650034DA68 /* GreeneumTests.xctest */,
+				AC0B99FB1EF6B6650034DA68 /* GreeneumUITests.xctest */,
+			);
+			name = Greeneum;
+			sourceTree = "<group>";
+		};
+		AC0B99DA1EF6B6650034DA68 /* Greeneum */ = {
+			isa = PBXGroup;
+			children = (
+				AC0B9ADD1EFAAC210034DA68 /* Images */,
+				AC0B99DB1EF6B6650034DA68 /* AppDelegate.swift */,
+				AC0B9A0F1EF6BEFC0034DA68 /* Source */,
+				AC0B99E31EF6B6650034DA68 /* Main.storyboard */,
+				AC2C73171F07FB1400197CFD /* FAQViewController.swift */,
+				AC2C73191F0A448C00197CFD /* ContactUsViewController.swift */,
+				AC464D7D1EFFEDF2005DF5B9 /* TableViewController.swift */,
+				AC0B9A4B1EF9839A0034DA68 /* FacebookViewController.swift */,
+				AC0B9A391EF96D640034DA68 /* TwitterViewController.swift */,
+				AC0B9A1F1EF91BE20034DA68 /* ViewController.swift */,
+				AC0B9AE81EFAC3910034DA68 /* AboutViewController.swift */,
+				AC0B99E61EF6B6650034DA68 /* Assets.xcassets */,
+				AC0B99E81EF6B6650034DA68 /* LaunchScreen.storyboard */,
+				AC0B99EB1EF6B6650034DA68 /* Info.plist */,
+				AC0B9A111EF7CDC30034DA68 /* SolarChange-Bridging-Header.h */,
+			);
+			name = Greeneum;
+			path = SolarChange;
+			sourceTree = "<group>";
+		};
+		AC0B99F31EF6B6650034DA68 /* SolarChangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0B99F41EF6B6650034DA68 /* SolarChangeTests.swift */,
+				AC0B99F61EF6B6650034DA68 /* Info.plist */,
+			);
+			path = SolarChangeTests;
+			sourceTree = "<group>";
+		};
+		AC0B99FE1EF6B6650034DA68 /* SolarChangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0B99FF1EF6B6650034DA68 /* SolarChangeUITests.swift */,
+				AC0B9A011EF6B6650034DA68 /* Info.plist */,
+			);
+			path = SolarChangeUITests;
+			sourceTree = "<group>";
+		};
+		AC0B9ADD1EFAAC210034DA68 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AC0B9A411EF975210034DA68 /* decor-2.png */,
+				AC0B9A2E1EF9654D0034DA68 /* icons8-menu.png */,
+				AC0B9A3B1EF972910034DA68 /* logo-top.png */,
+				AC0B9AD41EFA9FB60034DA68 /* icons8-about.png */,
+				AC2C731B1F0A471300197CFD /* icons8-email.png */,
+				AC2C73231F0BBD8800197CFD /* bg-top.png */,
+				ACC619E51F02964600B4F10A /* greencoin.png */,
+				AC2C73271F0BCF0500197CFD /* bg-cropped.png */,
+				AC2C73251F0BBD8D00197CFD /* loader.gif */,
+				ACC619E71F02964600B4F10A /* logo-01.jpg */,
+				AC2C73211F0BBD7E00197CFD /* btn-contribute.png */,
+				AC0B9ADE1EFAAC710034DA68 /* icons8-login_rounded_right.png */,
+				AC2C731D1F0A497100197CFD /* icons8-menu2.png */,
+				ACC619EB1F02998C00B4F10A /* logo-01 (1).png */,
+				AC0B9A2D1EF9654D0034DA68 /* icons8-share.png */,
+				AC0B9AD31EFA9FB60034DA68 /* icons8-home.png */,
+				AC0B9A3F1EF974F80034DA68 /* prln-cursor.png */,
+				AC0B9A2F1EF9654D0034DA68 /* icons8-facebook.png */,
+				AC0B9ADB1EFAAA3E0034DA68 /* Icon-App-60x60@ 2x.png */,
+				AC0B9A301EF9654D0034DA68 /* icons8-twitter.png */,
+				AC0B9A311EF9654D0034DA68 /* icons8-greentech.png */,
+				AC0B9A321EF9654D0034DA68 /* icons8-recycling.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F1C63EA9146BDAD73F18AD9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC2C731F1F0A59C400197CFD /* MessageUI.framework */,
+				FB02E8BEB9224F620E02B6B3 /* Pods_Greeneum.framework */,
+				DCDE4FD7B7CEED091CA71548 /* Pods_GreeneumTests.framework */,
+				9C6557989B4DE85E8DE14C37 /* Pods_GreeneumUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC0B99D71EF6B6650034DA68 /* Greeneum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0B9A041EF6B6650034DA68 /* Build configuration list for PBXNativeTarget "Greeneum" */;
+			buildPhases = (
+				6FBEAD3B000972A2701F086C /* [CP] Check Pods Manifest.lock */,
+				AC0B99D41EF6B6650034DA68 /* Sources */,
+				AC0B99D51EF6B6650034DA68 /* Frameworks */,
+				AC0B99D61EF6B6650034DA68 /* Resources */,
+				D6B99362CB828C56C731B184 /* [CP] Embed Pods Frameworks */,
+				D08B05F2BCA814C4A17C47D8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Greeneum;
+			productName = SolarChange;
+			productReference = AC0B99D81EF6B6650034DA68 /* Greeneum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC0B99EF1EF6B6650034DA68 /* GreeneumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0B9A071EF6B6650034DA68 /* Build configuration list for PBXNativeTarget "GreeneumTests" */;
+			buildPhases = (
+				095C54BB6D7915A562214A18 /* [CP] Check Pods Manifest.lock */,
+				AC0B99EC1EF6B6650034DA68 /* Sources */,
+				AC0B99ED1EF6B6650034DA68 /* Frameworks */,
+				AC0B99EE1EF6B6650034DA68 /* Resources */,
+				CA0AFCEC25331C27A7F97214 /* [CP] Embed Pods Frameworks */,
+				462BFFF2CDBD949CF7D9BB24 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0B99F21EF6B6650034DA68 /* PBXTargetDependency */,
+			);
+			name = GreeneumTests;
+			productName = SolarChangeTests;
+			productReference = AC0B99F01EF6B6650034DA68 /* GreeneumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC0B99FA1EF6B6650034DA68 /* GreeneumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0B9A0A1EF6B6650034DA68 /* Build configuration list for PBXNativeTarget "GreeneumUITests" */;
+			buildPhases = (
+				AAE0F7C924A49E9623390073 /* [CP] Check Pods Manifest.lock */,
+				AC0B99F71EF6B6650034DA68 /* Sources */,
+				AC0B99F81EF6B6650034DA68 /* Frameworks */,
+				AC0B99F91EF6B6650034DA68 /* Resources */,
+				5471709852FC1DBD83CC7FC7 /* [CP] Embed Pods Frameworks */,
+				066BB6701B74835E702CB63D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0B99FD1EF6B6650034DA68 /* PBXTargetDependency */,
+			);
+			name = GreeneumUITests;
+			productName = SolarChangeUITests;
+			productReference = AC0B99FB1EF6B6650034DA68 /* GreeneumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC0B99D01EF6B6650034DA68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jonathan Downing";
+				TargetAttributes = {
+					AC0B99D71EF6B6650034DA68 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L5BT8F6M99;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					AC0B99EF1EF6B6650034DA68 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L5BT8F6M99;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC0B99D71EF6B6650034DA68;
+					};
+					AC0B99FA1EF6B6650034DA68 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L5BT8F6M99;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC0B99D71EF6B6650034DA68;
+					};
+				};
+			};
+			buildConfigurationList = AC0B99D31EF6B6650034DA68 /* Build configuration list for PBXProject "Greeneum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC0B99CF1EF6B6650034DA68;
+			productRefGroup = AC0B99D91EF6B6650034DA68 /* Greeneum */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0B99D71EF6B6650034DA68 /* Greeneum */,
+				AC0B99EF1EF6B6650034DA68 /* GreeneumTests */,
+				AC0B99FA1EF6B6650034DA68 /* GreeneumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC0B99D61EF6B6650034DA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0B9A3C1EF972910034DA68 /* logo-top.png in Resources */,
+				AC0B9A361EF9654D0034DA68 /* icons8-twitter.png in Resources */,
+				AC2C731E1F0A497100197CFD /* icons8-menu2.png in Resources */,
+				AC0B9A101EF6BEFC0034DA68 /* Source in Resources */,
+				AC0B9A351EF9654D0034DA68 /* icons8-facebook.png in Resources */,
+				AC0B9ADC1EFAAA3E0034DA68 /* Icon-App-60x60@ 2x.png in Resources */,
+				AC0B9A381EF9654D0034DA68 /* icons8-recycling.png in Resources */,
+				AC0B9A371EF9654D0034DA68 /* icons8-greentech.png in Resources */,
+				AC0B9ADF1EFAAC710034DA68 /* icons8-login_rounded_right.png in Resources */,
+				AC0B9A421EF975210034DA68 /* decor-2.png in Resources */,
+				AC0B9A401EF974F80034DA68 /* prln-cursor.png in Resources */,
+				ACC619E81F02964600B4F10A /* greencoin.png in Resources */,
+				AC2C73281F0BCF0500197CFD /* bg-cropped.png in Resources */,
+				AC0B9A331EF9654D0034DA68 /* icons8-share.png in Resources */,
+				AC2C731C1F0A471300197CFD /* icons8-email.png in Resources */,
+				AC2C73241F0BBD8800197CFD /* bg-top.png in Resources */,
+				AC0B99EA1EF6B6650034DA68 /* LaunchScreen.storyboard in Resources */,
+				AC0B9AD51EFA9FB60034DA68 /* icons8-home.png in Resources */,
+				AC0B9A341EF9654D0034DA68 /* icons8-menu.png in Resources */,
+				ACC619EC1F02998C00B4F10A /* logo-01 (1).png in Resources */,
+				AC0B99E71EF6B6650034DA68 /* Assets.xcassets in Resources */,
+				AC2C73221F0BBD7F00197CFD /* btn-contribute.png in Resources */,
+				ACC619EA1F02964600B4F10A /* logo-01.jpg in Resources */,
+				AC0B99E51EF6B6650034DA68 /* Main.storyboard in Resources */,
+				AC2C73261F0BBD8D00197CFD /* loader.gif in Resources */,
+				AC0B9AD61EFA9FB60034DA68 /* icons8-about.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0B99EE1EF6B6650034DA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0B99F91EF6B6650034DA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		066BB6701B74835E702CB63D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreeneumUITests/Pods-GreeneumUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		095C54BB6D7915A562214A18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		462BFFF2CDBD949CF7D9BB24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreeneumTests/Pods-GreeneumTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5471709852FC1DBD83CC7FC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreeneumUITests/Pods-GreeneumUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FBEAD3B000972A2701F086C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AAE0F7C924A49E9623390073 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA0AFCEC25331C27A7F97214 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreeneumTests/Pods-GreeneumTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D08B05F2BCA814C4A17C47D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Greeneum/Pods-Greeneum-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6B99362CB828C56C731B184 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Greeneum/Pods-Greeneum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC0B99D41EF6B6650034DA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0B9AE91EFAC3910034DA68 /* AboutViewController.swift in Sources */,
+				AC464D7E1EFFEDF2005DF5B9 /* TableViewController.swift in Sources */,
+				AC0B9A201EF91BE20034DA68 /* ViewController.swift in Sources */,
+				AC2C731A1F0A448C00197CFD /* ContactUsViewController.swift in Sources */,
+				AC0B9A4C1EF9839A0034DA68 /* FacebookViewController.swift in Sources */,
+				AC2C73181F07FB1400197CFD /* FAQViewController.swift in Sources */,
+				AC0B99DC1EF6B6650034DA68 /* AppDelegate.swift in Sources */,
+				AC0B9A3A1EF96D640034DA68 /* TwitterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0B99EC1EF6B6650034DA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0B99F51EF6B6650034DA68 /* SolarChangeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0B99F71EF6B6650034DA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0B9A001EF6B6650034DA68 /* SolarChangeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC0B99F21EF6B6650034DA68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0B99D71EF6B6650034DA68 /* Greeneum */;
+			targetProxy = AC0B99F11EF6B6650034DA68 /* PBXContainerItemProxy */;
+		};
+		AC0B99FD1EF6B6650034DA68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0B99D71EF6B6650034DA68 /* Greeneum */;
+			targetProxy = AC0B99FC1EF6B6650034DA68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC0B99E31EF6B6650034DA68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0B99E41EF6B6650034DA68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC0B99E81EF6B6650034DA68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0B99E91EF6B6650034DA68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC0B9A021EF6B6650034DA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		AC0B9A031EF6B6650034DA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386";
+			};
+			name = Release;
+		};
+		AC0B9A051EF6B6650034DA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0224084E28ED90BB5AA7D5B /* Pods-Greeneum.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = L5BT8F6M99;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SolarChange",
+				);
+				INFOPLIST_FILE = SolarChange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = Greeneum.GreeneumApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SolarChange/SolarChange-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC0B9A061EF6B6650034DA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8791625F71F66AFBCBE75F58 /* Pods-Greeneum.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = L5BT8F6M99;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SolarChange",
+				);
+				INFOPLIST_FILE = SolarChange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = Greeneum.GreeneumApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SolarChange/SolarChange-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AC0B9A081EF6B6650034DA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BD22916E57AFAF5F41BCC1B /* Pods-GreeneumTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L5BT8F6M99;
+				INFOPLIST_FILE = SolarChangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SolarChange.SolarChangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Greeneum.app/Greeneum";
+			};
+			name = Debug;
+		};
+		AC0B9A091EF6B6650034DA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F8707B019854F8F80BAF81E /* Pods-GreeneumTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L5BT8F6M99;
+				INFOPLIST_FILE = SolarChangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SolarChange.SolarChangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Greeneum.app/Greeneum";
+			};
+			name = Release;
+		};
+		AC0B9A0B1EF6B6650034DA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EA6B0192C037E8B3DA78B7C /* Pods-GreeneumUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = L5BT8F6M99;
+				INFOPLIST_FILE = SolarChangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SolarChange.SolarChangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SolarChange;
+			};
+			name = Debug;
+		};
+		AC0B9A0C1EF6B6650034DA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 997CCFFF378FFF09398C4250 /* Pods-GreeneumUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = L5BT8F6M99;
+				INFOPLIST_FILE = SolarChangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SolarChange.SolarChangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SolarChange;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0B99D31EF6B6650034DA68 /* Build configuration list for PBXProject "Greeneum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0B9A021EF6B6650034DA68 /* Debug */,
+				AC0B9A031EF6B6650034DA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0B9A041EF6B6650034DA68 /* Build configuration list for PBXNativeTarget "Greeneum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0B9A051EF6B6650034DA68 /* Debug */,
+				AC0B9A061EF6B6650034DA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0B9A071EF6B6650034DA68 /* Build configuration list for PBXNativeTarget "GreeneumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0B9A081EF6B6650034DA68 /* Debug */,
+				AC0B9A091EF6B6650034DA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0B9A0A1EF6B6650034DA68 /* Build configuration list for PBXNativeTarget "GreeneumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0B9A0B1EF6B6650034DA68 /* Debug */,
+				AC0B9A0C1EF6B6650034DA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC0B99D01EF6B6650034DA68 /* Project object */;
+}
