@@ -6,23 +6,15 @@ target 'Greeneum' do
   use_frameworks!
 
   # Pods for Greeneum
-pod 'TwitterKit', '~> 3.0'
+pod 'TwitterKit’
 pod 'FacebookCore'
 pod 'FacebookLogin'
 pod 'FacebookShare', :git => 'https://github.com/1amageek/facebook-sdk-swift'
 pod 'SWRevealViewController', '~> 2.3'
 pod 'Google-Mobile-Ads-SDK'
 pod 'SwiftMandrill’, :git => ‘https://github.com/Adrage/SwiftMandrill’
-
-
-  target 'GreeneumTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'GreeneumUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+pod 'Firebase/Core'
+pod ‘Firebase/Auth’
+pod 'NVActivityIndicatorView'
 
 end

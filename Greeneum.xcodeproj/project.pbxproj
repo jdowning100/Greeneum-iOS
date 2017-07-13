@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FE479FF31F906393A9A6236 /* Pods_GreeneumUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C6557989B4DE85E8DE14C37 /* Pods_GreeneumUITests.framework */; };
-		706F728BDD4DA37693E0C3B5 /* Pods_GreeneumTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDE4FD7B7CEED091CA71548 /* Pods_GreeneumTests.framework */; };
 		AC2C73201F0A59C400197CFD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC2C731F1F0A59C400197CFD /* MessageUI.framework */; };
 		AC2C73221F0BBD7F00197CFD /* btn-contribute.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2C73211F0BBD7E00197CFD /* btn-contribute.png */; };
 		AC2C73241F0BBD8800197CFD /* bg-top.png in Resources */ = {isa = PBXBuildFile; fileRef = AC2C73231F0BBD8800197CFD /* bg-top.png */; };
@@ -43,6 +41,23 @@
 		AC5944D51F0EF2DA00FACBF1 /* prln-cursor.png in Resources */ = {isa = PBXBuildFile; fileRef = AC5944D41F0EF2DA00FACBF1 /* prln-cursor.png */; };
 		AC5944D71F0EF31900FACBF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5944D61F0EF31900FACBF1 /* Assets.xcassets */; };
 		AC6477AE1F0EF5D4009AA453 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6477AD1F0EF5D4009AA453 /* AboutViewController.swift */; };
+		AC6477B01F111CE9009AA453 /* bg-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AC6477AF1F111CE9009AA453 /* bg-logo.png */; };
+		AC6477B21F14EC81009AA453 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC6477B11F14EC81009AA453 /* GoogleService-Info.plist */; };
+		AC6477B71F14FB53009AA453 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC6477B61F14FB53009AA453 /* Info.plist */; };
+		AC6477BD1F150EC5009AA453 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6477BC1F150EC5009AA453 /* LogInViewController.swift */; };
+		AC6477BF1F152146009AA453 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6477BE1F152146009AA453 /* RegisterViewController.swift */; };
+		AC6477CE1F1787ED009AA453 /* assaf.png in Resources */ = {isa = PBXBuildFile; fileRef = AC6477C21F1787ED009AA453 /* assaf.png */; };
+		AC6477CF1F1787ED009AA453 /* bar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC6477C31F1787ED009AA453 /* bar.jpeg */; };
+		AC6477D01F1787ED009AA453 /* bradley.png in Resources */ = {isa = PBXBuildFile; fileRef = AC6477C41F1787ED009AA453 /* bradley.png */; };
+		AC6477D11F1787ED009AA453 /* den.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC6477C51F1787ED009AA453 /* den.jpg */; };
+		AC6477D21F1787ED009AA453 /* dorita.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC6477C61F1787ED009AA453 /* dorita.jpg */; };
+		AC6477D31F1787ED009AA453 /* dt.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC6477C71F1787ED009AA453 /* dt.jpeg */; };
+		AC6477D41F1787ED009AA453 /* elya.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC6477C81F1787ED009AA453 /* elya.jpeg */; };
+		AC6477D51F1787ED009AA453 /* gd.png in Resources */ = {isa = PBXBuildFile; fileRef = AC6477C91F1787ED009AA453 /* gd.png */; };
+		AC6477D61F1787ED009AA453 /* helen.png in Resources */ = {isa = PBXBuildFile; fileRef = AC6477CA1F1787ED009AA453 /* helen.png */; };
+		AC6477D71F1787ED009AA453 /* mike.png in Resources */ = {isa = PBXBuildFile; fileRef = AC6477CB1F1787ED009AA453 /* mike.png */; };
+		AC6477D81F1787ED009AA453 /* ns.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC6477CC1F1787ED009AA453 /* ns.jpeg */; };
+		AC6477D91F1787ED009AA453 /* yau.png in Resources */ = {isa = PBXBuildFile; fileRef = AC6477CD1F1787ED009AA453 /* yau.png */; };
 		F3E9431319F001C41BD41CB1 /* Pods_Greeneum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB02E8BEB9224F620E02B6B3 /* Pods_Greeneum.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,11 +79,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2EA6B0192C037E8B3DA78B7C /* Pods-GreeneumUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreeneumUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GreeneumUITests/Pods-GreeneumUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		5F8707B019854F8F80BAF81E /* Pods-GreeneumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreeneumTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GreeneumTests/Pods-GreeneumTests.release.xcconfig"; sourceTree = "<group>"; };
 		8791625F71F66AFBCBE75F58 /* Pods-Greeneum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greeneum.release.xcconfig"; path = "Pods/Target Support Files/Pods-Greeneum/Pods-Greeneum.release.xcconfig"; sourceTree = "<group>"; };
-		997CCFFF378FFF09398C4250 /* Pods-GreeneumUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreeneumUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GreeneumUITests/Pods-GreeneumUITests.release.xcconfig"; sourceTree = "<group>"; };
-		9BD22916E57AFAF5F41BCC1B /* Pods-GreeneumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreeneumTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GreeneumTests/Pods-GreeneumTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9C6557989B4DE85E8DE14C37 /* Pods_GreeneumUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreeneumUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0B99D81EF6B6650034DA68 /* Greeneum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greeneum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC2C731F1F0A59C400197CFD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -108,6 +119,23 @@
 		AC6477AB1F0EF418009AA453 /* GreeneumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreeneumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6477AC1F0EF418009AA453 /* GreeneumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreeneumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6477AD1F0EF5D4009AA453 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = Greeneum/AboutViewController.swift; sourceTree = SOURCE_ROOT; };
+		AC6477AF1F111CE9009AA453 /* bg-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg-logo.png"; path = "Greeneum/bg-logo.png"; sourceTree = SOURCE_ROOT; };
+		AC6477B11F14EC81009AA453 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Greeneum/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AC6477B61F14FB53009AA453 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Greeneum/Info.plist; sourceTree = SOURCE_ROOT; };
+		AC6477BC1F150EC5009AA453 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogInViewController.swift; path = Greeneum/LogInViewController.swift; sourceTree = SOURCE_ROOT; };
+		AC6477BE1F152146009AA453 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = Greeneum/RegisterViewController.swift; sourceTree = SOURCE_ROOT; };
+		AC6477C21F1787ED009AA453 /* assaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = assaf.png; sourceTree = SOURCE_ROOT; };
+		AC6477C31F1787ED009AA453 /* bar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar.jpeg; sourceTree = SOURCE_ROOT; };
+		AC6477C41F1787ED009AA453 /* bradley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bradley.png; sourceTree = SOURCE_ROOT; };
+		AC6477C51F1787ED009AA453 /* den.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = den.jpg; sourceTree = SOURCE_ROOT; };
+		AC6477C61F1787ED009AA453 /* dorita.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dorita.jpg; sourceTree = SOURCE_ROOT; };
+		AC6477C71F1787ED009AA453 /* dt.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dt.jpeg; sourceTree = SOURCE_ROOT; };
+		AC6477C81F1787ED009AA453 /* elya.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elya.jpeg; sourceTree = SOURCE_ROOT; };
+		AC6477C91F1787ED009AA453 /* gd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gd.png; sourceTree = SOURCE_ROOT; };
+		AC6477CA1F1787ED009AA453 /* helen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helen.png; sourceTree = SOURCE_ROOT; };
+		AC6477CB1F1787ED009AA453 /* mike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mike.png; sourceTree = SOURCE_ROOT; };
+		AC6477CC1F1787ED009AA453 /* ns.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ns.jpeg; sourceTree = SOURCE_ROOT; };
+		AC6477CD1F1787ED009AA453 /* yau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yau.png; sourceTree = SOURCE_ROOT; };
 		B0224084E28ED90BB5AA7D5B /* Pods-Greeneum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greeneum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Greeneum/Pods-Greeneum.debug.xcconfig"; sourceTree = "<group>"; };
 		DCDE4FD7B7CEED091CA71548 /* Pods_GreeneumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreeneumTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB02E8BEB9224F620E02B6B3 /* Pods_Greeneum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Greeneum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,7 +155,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				706F728BDD4DA37693E0C3B5 /* Pods_GreeneumTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +162,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FE479FF31F906393A9A6236 /* Pods_GreeneumUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,10 +173,6 @@
 			children = (
 				B0224084E28ED90BB5AA7D5B /* Pods-Greeneum.debug.xcconfig */,
 				8791625F71F66AFBCBE75F58 /* Pods-Greeneum.release.xcconfig */,
-				9BD22916E57AFAF5F41BCC1B /* Pods-GreeneumTests.debug.xcconfig */,
-				5F8707B019854F8F80BAF81E /* Pods-GreeneumTests.release.xcconfig */,
-				2EA6B0192C037E8B3DA78B7C /* Pods-GreeneumUITests.debug.xcconfig */,
-				997CCFFF378FFF09398C4250 /* Pods-GreeneumUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -179,14 +201,18 @@
 			isa = PBXGroup;
 			children = (
 				AC59449C1F0EEF8100FACBF1 /* AppDelegate.swift */,
+				AC6477BC1F150EC5009AA453 /* LogInViewController.swift */,
 				AC59449D1F0EEF8100FACBF1 /* ContactUsViewController.swift */,
 				AC59449E1F0EEF8100FACBF1 /* FacebookViewController.swift */,
 				AC59449F1F0EEF8100FACBF1 /* FAQViewController.swift */,
 				AC5944C11F0EEFC300FACBF1 /* LaunchScreen.storyboard */,
 				AC5944C31F0EEFC300FACBF1 /* Main.storyboard */,
+				AC6477BE1F152146009AA453 /* RegisterViewController.swift */,
+				AC6477B11F14EC81009AA453 /* GoogleService-Info.plist */,
 				AC6477AD1F0EF5D4009AA453 /* AboutViewController.swift */,
 				AC5944A01F0EEF8100FACBF1 /* Greeneum-Bridging-Header.h */,
 				AC5944D61F0EF31900FACBF1 /* Assets.xcassets */,
+				AC6477B61F14FB53009AA453 /* Info.plist */,
 				AC5944A11F0EEF8100FACBF1 /* TableViewController.swift */,
 				AC5944A21F0EEF8100FACBF1 /* TwitterViewController.swift */,
 				AC5944A31F0EEF8100FACBF1 /* ViewController.swift */,
@@ -199,10 +225,12 @@
 		AC0B9ADD1EFAAC210034DA68 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				AC6477C11F1787AE009AA453 /* Team */,
 				AC2C73231F0BBD8800197CFD /* bg-top.png */,
 				AC2C73271F0BCF0500197CFD /* bg-cropped.png */,
 				AC5944AB1F0EEFB500FACBF1 /* greencoin.png */,
 				AC5944BF1F0EEFC300FACBF1 /* icons8-email.png */,
+				AC6477AF1F111CE9009AA453 /* bg-logo.png */,
 				AC5944AC1F0EEFB500FACBF1 /* Icon-App-60x60@ 2x.png */,
 				AC5944AD1F0EEFB500FACBF1 /* Icon-App-60x60@2x.png */,
 				AC5944C81F0EF15200FACBF1 /* icons8-facebook.png */,
@@ -223,6 +251,25 @@
 				AC2C73211F0BBD7E00197CFD /* btn-contribute.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		AC6477C11F1787AE009AA453 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				AC6477C21F1787ED009AA453 /* assaf.png */,
+				AC6477C31F1787ED009AA453 /* bar.jpeg */,
+				AC6477C41F1787ED009AA453 /* bradley.png */,
+				AC6477C51F1787ED009AA453 /* den.jpg */,
+				AC6477C61F1787ED009AA453 /* dorita.jpg */,
+				AC6477C71F1787ED009AA453 /* dt.jpeg */,
+				AC6477C81F1787ED009AA453 /* elya.jpeg */,
+				AC6477C91F1787ED009AA453 /* gd.png */,
+				AC6477CA1F1787ED009AA453 /* helen.png */,
+				AC6477CB1F1787ED009AA453 /* mike.png */,
+				AC6477CC1F1787ED009AA453 /* ns.jpeg */,
+				AC6477CD1F1787ED009AA453 /* yau.png */,
+			);
+			name = Team;
 			sourceTree = "<group>";
 		};
 		F1C63EA9146BDAD73F18AD9B /* Frameworks */ = {
@@ -263,12 +310,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC0B9A071EF6B6650034DA68 /* Build configuration list for PBXNativeTarget "GreeneumTests" */;
 			buildPhases = (
-				095C54BB6D7915A562214A18 /* [CP] Check Pods Manifest.lock */,
 				AC0B99EC1EF6B6650034DA68 /* Sources */,
 				AC0B99ED1EF6B6650034DA68 /* Frameworks */,
 				AC0B99EE1EF6B6650034DA68 /* Resources */,
-				CA0AFCEC25331C27A7F97214 /* [CP] Embed Pods Frameworks */,
-				462BFFF2CDBD949CF7D9BB24 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,12 +328,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC0B9A0A1EF6B6650034DA68 /* Build configuration list for PBXNativeTarget "GreeneumUITests" */;
 			buildPhases = (
-				AAE0F7C924A49E9623390073 /* [CP] Check Pods Manifest.lock */,
 				AC0B99F71EF6B6650034DA68 /* Sources */,
 				AC0B99F81EF6B6650034DA68 /* Frameworks */,
 				AC0B99F91EF6B6650034DA68 /* Resources */,
-				5471709852FC1DBD83CC7FC7 /* [CP] Embed Pods Frameworks */,
-				066BB6701B74835E702CB63D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -357,30 +398,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC5944D01F0EF15200FACBF1 /* icons8-menu.png in Resources */,
+				AC6477D91F1787ED009AA453 /* yau.png in Resources */,
+				AC6477D31F1787ED009AA453 /* dt.jpeg in Resources */,
+				AC6477D61F1787ED009AA453 /* helen.png in Resources */,
 				AC5944BD1F0EEFB500FACBF1 /* logo-01 (1).png in Resources */,
 				AC2C73281F0BCF0500197CFD /* bg-cropped.png in Resources */,
 				AC5944B61F0EEFB500FACBF1 /* Icon-App-60x60@ 2x.png in Resources */,
 				AC5944CE1F0EF15200FACBF1 /* icons8-facebook.png in Resources */,
+				AC6477CF1F1787ED009AA453 /* bar.jpeg in Resources */,
 				AC5944CF1F0EF15200FACBF1 /* icons8-greentech.png in Resources */,
 				AC5944B51F0EEFB500FACBF1 /* greencoin.png in Resources */,
 				AC5944D11F0EF15200FACBF1 /* icons8-recycling.png in Resources */,
 				AC5944B91F0EEFB500FACBF1 /* icons8-email2.png in Resources */,
 				AC5944D51F0EF2DA00FACBF1 /* prln-cursor.png in Resources */,
 				AC5944BB1F0EEFB500FACBF1 /* icons8-login_rounded_right.png in Resources */,
+				AC6477D41F1787ED009AA453 /* elya.jpeg in Resources */,
+				AC6477B21F14EC81009AA453 /* GoogleService-Info.plist in Resources */,
+				AC6477D11F1787ED009AA453 /* den.jpg in Resources */,
+				AC6477D51F1787ED009AA453 /* gd.png in Resources */,
 				AC5944C71F0EEFC300FACBF1 /* Main.storyboard in Resources */,
 				AC5944C51F0EEFC300FACBF1 /* icons8-email.png in Resources */,
 				AC5944B71F0EEFB500FACBF1 /* Icon-App-60x60@2x.png in Resources */,
 				AC2C73241F0BBD8800197CFD /* bg-top.png in Resources */,
+				AC6477B01F111CE9009AA453 /* bg-logo.png in Resources */,
 				AC5944C61F0EEFC300FACBF1 /* LaunchScreen.storyboard in Resources */,
 				AC2C73221F0BBD7F00197CFD /* btn-contribute.png in Resources */,
 				AC2C73261F0BBD8D00197CFD /* loader.gif in Resources */,
+				AC6477B71F14FB53009AA453 /* Info.plist in Resources */,
 				AC5944BA1F0EEFB500FACBF1 /* icons8-home.png in Resources */,
 				AC5944BE1F0EEFB500FACBF1 /* logo-01.jpg in Resources */,
+				AC6477CE1F1787ED009AA453 /* assaf.png in Resources */,
+				AC6477D81F1787ED009AA453 /* ns.jpeg in Resources */,
 				AC5944D21F0EF15200FACBF1 /* icons8-share.png in Resources */,
+				AC6477D71F1787ED009AA453 /* mike.png in Resources */,
 				AC5944D31F0EF15200FACBF1 /* icons8-twitter.png in Resources */,
 				AC5944B81F0EEFB500FACBF1 /* icons8-about.png in Resources */,
 				AC5944BC1F0EEFB500FACBF1 /* icons8-menu2.png in Resources */,
 				AC5944D71F0EF31900FACBF1 /* Assets.xcassets in Resources */,
+				AC6477D21F1787ED009AA453 /* dorita.jpg in Resources */,
+				AC6477D01F1787ED009AA453 /* bradley.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,66 +457,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		066BB6701B74835E702CB63D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreeneumUITests/Pods-GreeneumUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		095C54BB6D7915A562214A18 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		462BFFF2CDBD949CF7D9BB24 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreeneumTests/Pods-GreeneumTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5471709852FC1DBD83CC7FC7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreeneumUITests/Pods-GreeneumUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6FBEAD3B000972A2701F086C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -474,36 +470,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		AAE0F7C924A49E9623390073 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		CA0AFCEC25331C27A7F97214 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GreeneumTests/Pods-GreeneumTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D08B05F2BCA814C4A17C47D8 /* [CP] Copy Pods Resources */ = {
@@ -544,12 +510,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC5944A91F0EEF8100FACBF1 /* TwitterViewController.swift in Sources */,
+				AC6477BF1F152146009AA453 /* RegisterViewController.swift in Sources */,
 				AC5944A41F0EEF8100FACBF1 /* AppDelegate.swift in Sources */,
 				AC5944A71F0EEF8100FACBF1 /* FAQViewController.swift in Sources */,
 				AC5944A51F0EEF8100FACBF1 /* ContactUsViewController.swift in Sources */,
 				AC5944AA1F0EEF8100FACBF1 /* ViewController.swift in Sources */,
 				AC5944A81F0EEF8100FACBF1 /* TableViewController.swift in Sources */,
 				AC6477AE1F0EF5D4009AA453 /* AboutViewController.swift in Sources */,
+				AC6477BD1F150EC5009AA453 /* LogInViewController.swift in Sources */,
 				AC5944A61F0EEF8100FACBF1 /* FacebookViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -732,7 +700,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = Greeneum.GreeneumApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Greeneum.GreeneumApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Greeneum/Greeneum-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -755,7 +723,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = Greeneum.GreeneumApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Greeneum.GreeneumApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Greeneum/Greeneum-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -764,7 +732,6 @@
 		};
 		AC0B9A081EF6B6650034DA68 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BD22916E57AFAF5F41BCC1B /* Pods-GreeneumTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -780,7 +747,6 @@
 		};
 		AC0B9A091EF6B6650034DA68 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F8707B019854F8F80BAF81E /* Pods-GreeneumTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -796,7 +762,6 @@
 		};
 		AC0B9A0B1EF6B6650034DA68 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EA6B0192C037E8B3DA78B7C /* Pods-GreeneumUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = L5BT8F6M99;
@@ -811,7 +776,6 @@
 		};
 		AC0B9A0C1EF6B6650034DA68 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 997CCFFF378FFF09398C4250 /* Pods-GreeneumUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = L5BT8F6M99;

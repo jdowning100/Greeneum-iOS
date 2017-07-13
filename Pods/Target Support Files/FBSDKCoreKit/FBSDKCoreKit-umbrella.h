@@ -18,7 +18,6 @@
 #import "FBSDKButton.h"
 #import "FBSDKConstants.h"
 #import "FBSDKCopying.h"
-#import "FBSDKCoreKit 2.h"
 #import "FBSDKCoreKit.h"
 #import "FBSDKGraphErrorRecoveryProcessor.h"
 #import "FBSDKGraphRequest.h"

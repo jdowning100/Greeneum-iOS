@@ -44,22 +44,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>GTMSessionFetcher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GoogleToolboxForMac.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>NVActivityIndicatorView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>ObjectMapper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-Greeneum.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-GreeneumTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-GreeneumUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -77,12 +82,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1C28158435E3E334014FC3CDB28D07F6</key>
+		<key>107A9565F9DF88517DFD3E28C05B2B96</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>285614D7785D2DEEC911C9907A0A17E2</key>
+		<key>32E81250E9CBAFE06FDA08C5ACEE31F8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,7 +97,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>3EDFE4052B5DE7D509935AC0774CB135</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>44CAD6CE523055ED339E87154473A254</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>54CF1E2BE134819DE8E00167B3FEF774</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -117,12 +132,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>89525B1907BD1F5F79AB156968E8F230</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A28F3F41A354684AC2FAF0E68E354C16</key>
+		<key>8B77A8961835AFBA92C82FE0351E6E12</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -132,7 +142,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C292F4BF8010E5D028FD4604C3FB7317</key>
+		<key>C052BEBFBD0AB5218CC64BA3450F6547</key>
 		<dict>
 			<key>primary</key>
 			<true/>

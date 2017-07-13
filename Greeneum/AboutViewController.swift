@@ -12,6 +12,7 @@ import GoogleMobileAds
 class AboutViewController: UIViewController, GADBannerViewDelegate {
     
    
+    @IBOutlet weak var loadVideo: UIWebView!
     @IBOutlet weak var menuButton: UIBarButtonItem!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var scrollView: UIScrollView!
@@ -19,6 +20,23 @@ class AboutViewController: UIViewController, GADBannerViewDelegate {
    
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadVideo.allowsInlineMediaPlayback = true
+        do {
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+            //print("AVAudioSession Category Playback OK")
+            do {
+                try AVAudioSession.sharedInstance().setActive(true)
+                //print("AVAudioSession is Active")
+            } catch {
+                print(error.localizedDescription)
+            }
+        } catch {
+            print(error.localizedDescription)
+        }
+        loadVideo.loadHTMLString("<iframe src=\"https://www.youtube.com/embed/vYuWo05J9WE?&playsinline=1\" width=\"\(loadVideo.frame.width)\" height=\"\(loadVideo.frame.height)\" frameborder=\"0\" style=\"position:absolute;width:100%;height:100%;left:0\" allowfullscreen vq=hd720></iframe>", baseURL: nil)
+        
+        
+        
         
         self.view.addSubview(scrollView)
         self.view.insertSubview(imageView, belowSubview: scrollView)
@@ -41,7 +59,7 @@ class AboutViewController: UIViewController, GADBannerViewDelegate {
     }
     
     override func viewWillLayoutSubviews() {
-        scrollView.contentSize = CGSize(width: 375, height: 1200)
+        scrollView.contentSize = CGSize(width: 375, height: 3000)
     }
     
     func sideMenu(){
