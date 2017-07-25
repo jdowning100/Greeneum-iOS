@@ -16,5 +16,6 @@ pod 'SwiftMandrill’, :git => ‘https://github.com/Adrage/SwiftMandrill’
 pod 'Firebase/Core'
 pod ‘Firebase/Auth’
 pod 'NVActivityIndicatorView'
+pod ‘ReCaptcha’
 
 end

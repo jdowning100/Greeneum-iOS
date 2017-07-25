@@ -58,6 +58,13 @@
 		AC6477D71F1787ED009AA453 /* mike.png in Resources */ = {isa = PBXBuildFile; fileRef = AC6477CB1F1787ED009AA453 /* mike.png */; };
 		AC6477D81F1787ED009AA453 /* ns.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC6477CC1F1787ED009AA453 /* ns.jpeg */; };
 		AC6477D91F1787ED009AA453 /* yau.png in Resources */ = {isa = PBXBuildFile; fileRef = AC6477CD1F1787ED009AA453 /* yau.png */; };
+		AC7440731F1C078600F4BDD9 /* bg-middle.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7440711F1C078600F4BDD9 /* bg-middle.png */; };
+		AC7440741F1C078600F4BDD9 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7440721F1C078600F4BDD9 /* Untitled-1.png */; };
+		AC7440781F1E266500F4BDD9 /* net1.png in Resources */ = {isa = PBXBuildFile; fileRef = AC7440761F1E266500F4BDD9 /* net1.png */; };
+		AC7440791F1E266500F4BDD9 /* net2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC7440771F1E266500F4BDD9 /* net2.jpg */; };
+		AC74407C1F1E2DA600F4BDD9 /* julien3.png in Resources */ = {isa = PBXBuildFile; fileRef = AC74407A1F1E2DA600F4BDD9 /* julien3.png */; };
+		AC74407D1F1E2DA600F4BDD9 /* stas2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC74407B1F1E2DA600F4BDD9 /* stas2.jpg */; };
+		AC74407F1F24CCE000F4BDD9 /* ContributeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC74407E1F24CCE000F4BDD9 /* ContributeViewController.swift */; };
 		F3E9431319F001C41BD41CB1 /* Pods_Greeneum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB02E8BEB9224F620E02B6B3 /* Pods_Greeneum.framework */; };
 /* End PBXBuildFile section */
 
@@ -136,6 +143,14 @@
 		AC6477CB1F1787ED009AA453 /* mike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mike.png; sourceTree = SOURCE_ROOT; };
 		AC6477CC1F1787ED009AA453 /* ns.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ns.jpeg; sourceTree = SOURCE_ROOT; };
 		AC6477CD1F1787ED009AA453 /* yau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yau.png; sourceTree = SOURCE_ROOT; };
+		AC7440711F1C078600F4BDD9 /* bg-middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg-middle.png"; path = "Greeneum/bg-middle.png"; sourceTree = SOURCE_ROOT; };
+		AC7440721F1C078600F4BDD9 /* Untitled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled-1.png"; path = "Greeneum/Untitled-1.png"; sourceTree = SOURCE_ROOT; };
+		AC7440751F1CF77A00F4BDD9 /* Greeneum.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Greeneum.entitlements; path = Greeneum/Greeneum.entitlements; sourceTree = SOURCE_ROOT; };
+		AC7440761F1E266500F4BDD9 /* net1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = net1.png; sourceTree = SOURCE_ROOT; };
+		AC7440771F1E266500F4BDD9 /* net2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = net2.jpg; sourceTree = SOURCE_ROOT; };
+		AC74407A1F1E2DA600F4BDD9 /* julien3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = julien3.png; sourceTree = SOURCE_ROOT; };
+		AC74407B1F1E2DA600F4BDD9 /* stas2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stas2.jpg; sourceTree = SOURCE_ROOT; };
+		AC74407E1F24CCE000F4BDD9 /* ContributeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContributeViewController.swift; path = Greeneum/ContributeViewController.swift; sourceTree = SOURCE_ROOT; };
 		B0224084E28ED90BB5AA7D5B /* Pods-Greeneum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greeneum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Greeneum/Pods-Greeneum.debug.xcconfig"; sourceTree = "<group>"; };
 		DCDE4FD7B7CEED091CA71548 /* Pods_GreeneumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreeneumTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB02E8BEB9224F620E02B6B3 /* Pods_Greeneum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Greeneum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -200,6 +215,7 @@
 		AC0B99DA1EF6B6650034DA68 /* Greeneum */ = {
 			isa = PBXGroup;
 			children = (
+				AC7440751F1CF77A00F4BDD9 /* Greeneum.entitlements */,
 				AC59449C1F0EEF8100FACBF1 /* AppDelegate.swift */,
 				AC6477BC1F150EC5009AA453 /* LogInViewController.swift */,
 				AC59449D1F0EEF8100FACBF1 /* ContactUsViewController.swift */,
@@ -207,6 +223,7 @@
 				AC59449F1F0EEF8100FACBF1 /* FAQViewController.swift */,
 				AC5944C11F0EEFC300FACBF1 /* LaunchScreen.storyboard */,
 				AC5944C31F0EEFC300FACBF1 /* Main.storyboard */,
+				AC74407E1F24CCE000F4BDD9 /* ContributeViewController.swift */,
 				AC6477BE1F152146009AA453 /* RegisterViewController.swift */,
 				AC6477B11F14EC81009AA453 /* GoogleService-Info.plist */,
 				AC6477AD1F0EF5D4009AA453 /* AboutViewController.swift */,
@@ -225,6 +242,10 @@
 		AC0B9ADD1EFAAC210034DA68 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				AC7440761F1E266500F4BDD9 /* net1.png */,
+				AC7440771F1E266500F4BDD9 /* net2.jpg */,
+				AC7440711F1C078600F4BDD9 /* bg-middle.png */,
+				AC7440721F1C078600F4BDD9 /* Untitled-1.png */,
 				AC6477C11F1787AE009AA453 /* Team */,
 				AC2C73231F0BBD8800197CFD /* bg-top.png */,
 				AC2C73271F0BCF0500197CFD /* bg-cropped.png */,
@@ -258,6 +279,8 @@
 			children = (
 				AC6477C21F1787ED009AA453 /* assaf.png */,
 				AC6477C31F1787ED009AA453 /* bar.jpeg */,
+				AC74407A1F1E2DA600F4BDD9 /* julien3.png */,
+				AC74407B1F1E2DA600F4BDD9 /* stas2.jpg */,
 				AC6477C41F1787ED009AA453 /* bradley.png */,
 				AC6477C51F1787ED009AA453 /* den.jpg */,
 				AC6477C61F1787ED009AA453 /* dorita.jpg */,
@@ -357,6 +380,11 @@
 						DevelopmentTeam = L5BT8F6M99;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					AC0B99EF1EF6B6650034DA68 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -409,9 +437,11 @@
 				AC5944CF1F0EF15200FACBF1 /* icons8-greentech.png in Resources */,
 				AC5944B51F0EEFB500FACBF1 /* greencoin.png in Resources */,
 				AC5944D11F0EF15200FACBF1 /* icons8-recycling.png in Resources */,
+				AC7440791F1E266500F4BDD9 /* net2.jpg in Resources */,
 				AC5944B91F0EEFB500FACBF1 /* icons8-email2.png in Resources */,
 				AC5944D51F0EF2DA00FACBF1 /* prln-cursor.png in Resources */,
 				AC5944BB1F0EEFB500FACBF1 /* icons8-login_rounded_right.png in Resources */,
+				AC7440781F1E266500F4BDD9 /* net1.png in Resources */,
 				AC6477D41F1787ED009AA453 /* elya.jpeg in Resources */,
 				AC6477B21F14EC81009AA453 /* GoogleService-Info.plist in Resources */,
 				AC6477D11F1787ED009AA453 /* den.jpg in Resources */,
@@ -424,11 +454,15 @@
 				AC5944C61F0EEFC300FACBF1 /* LaunchScreen.storyboard in Resources */,
 				AC2C73221F0BBD7F00197CFD /* btn-contribute.png in Resources */,
 				AC2C73261F0BBD8D00197CFD /* loader.gif in Resources */,
+				AC74407C1F1E2DA600F4BDD9 /* julien3.png in Resources */,
 				AC6477B71F14FB53009AA453 /* Info.plist in Resources */,
 				AC5944BA1F0EEFB500FACBF1 /* icons8-home.png in Resources */,
 				AC5944BE1F0EEFB500FACBF1 /* logo-01.jpg in Resources */,
+				AC7440741F1C078600F4BDD9 /* Untitled-1.png in Resources */,
+				AC7440731F1C078600F4BDD9 /* bg-middle.png in Resources */,
 				AC6477CE1F1787ED009AA453 /* assaf.png in Resources */,
 				AC6477D81F1787ED009AA453 /* ns.jpeg in Resources */,
+				AC74407D1F1E2DA600F4BDD9 /* stas2.jpg in Resources */,
 				AC5944D21F0EF15200FACBF1 /* icons8-share.png in Resources */,
 				AC6477D71F1787ED009AA453 /* mike.png in Resources */,
 				AC5944D31F0EF15200FACBF1 /* icons8-twitter.png in Resources */,
@@ -512,6 +546,7 @@
 				AC5944A91F0EEF8100FACBF1 /* TwitterViewController.swift in Sources */,
 				AC6477BF1F152146009AA453 /* RegisterViewController.swift in Sources */,
 				AC5944A41F0EEF8100FACBF1 /* AppDelegate.swift in Sources */,
+				AC74407F1F24CCE000F4BDD9 /* ContributeViewController.swift in Sources */,
 				AC5944A71F0EEF8100FACBF1 /* FAQViewController.swift in Sources */,
 				AC5944A51F0EEF8100FACBF1 /* ContactUsViewController.swift in Sources */,
 				AC5944AA1F0EEF8100FACBF1 /* ViewController.swift in Sources */,
@@ -691,6 +726,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Greeneum/Greeneum.entitlements;
 				DEVELOPMENT_TEAM = L5BT8F6M99;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -714,6 +750,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Greeneum/Greeneum.entitlements;
 				DEVELOPMENT_TEAM = L5BT8F6M99;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,28 +1,22 @@
 //
-//  AboutViewController.swift
+//  ContributeViewController.swift
 //  Greeneum
 //
-//  Created by Jonathan Downing on 6/21/17.
+//  Created by Jonathan Downing on 7/23/17.
 //  Copyright © 2017 Jonathan Downing. All rights reserved.
 //
 
 import UIKit
 import GoogleMobileAds
 
-class AboutViewController: UIViewController, GADBannerViewDelegate {
-    
-   
+class ContributeViewController: UIViewController {
+
     @IBOutlet weak var menuButton: UIBarButtonItem!
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var scrollView: UIScrollView!
     var bannerView: GADBannerView!
-   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.addSubview(scrollView)
-        self.view.insertSubview(imageView, belowSubview: scrollView)
-
         bannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
         bannerView.adUnitID = adID
         bannerView.rootViewController = self
@@ -32,16 +26,9 @@ class AboutViewController: UIViewController, GADBannerViewDelegate {
         relayoutViews()
         
         sideMenu()
-        // Do any additional setup after loading the view.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    override func viewWillLayoutSubviews() {
-        scrollView.contentSize = CGSize(width: 375, height: 6750)
+
+        // Do any additional setup after loading the view.
     }
     
     func sideMenu(){
@@ -53,28 +40,18 @@ class AboutViewController: UIViewController, GADBannerViewDelegate {
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
     }
-    
-    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
-        print("adViewDidReceiveAd:\(view)");
-        
-        relayoutViews()
-    }
-    
+
     func relayoutViews(){
         let screenRect = UIScreen.main.bounds
         var bannerFrame = bannerView.frame
         bannerFrame.origin.x = 0
         bannerFrame.origin.y = screenRect.size.height - bannerFrame.size.height
-            
+        
         bannerView.frame = bannerFrame
-    
-    }
-    func adView(_ bannerView: GADBannerView,
-                didFailToReceiveAdWithError error: GADRequestError) {
-        print("adView:didFailToReceiveAdWithError: \(error.localizedDescription)")
+        
     }
 
-    
+
     /*
     // MARK: - Navigation
 

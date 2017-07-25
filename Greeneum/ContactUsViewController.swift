@@ -10,10 +10,11 @@ import UIKit
 import GoogleMobileAds
 //import MessageUI
 import SwiftMandrill
+import NVActivityIndicatorView
 
 class ContactUsViewController: UIViewController, GADBannerViewDelegate {
 
-    @IBOutlet weak var doneLabel: UILabel!
+    @IBOutlet weak var activityIndicator: NVActivityIndicatorView!
     @IBOutlet weak var messageField: UITextField!
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var nameField: UITextField!
@@ -24,7 +25,7 @@ class ContactUsViewController: UIViewController, GADBannerViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        doneLabel.isHidden = true
+        
         bannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
         bannerView.adUnitID = adID
         bannerView.rootViewController = self
@@ -92,20 +93,12 @@ class ContactUsViewController: UIViewController, GADBannerViewDelegate {
     @IBOutlet weak var send: UILabel!
     
     @IBAction func sendButton(_ sender: Any) {
-        
+        if nameField.text != "" && messageField.text != ""{
         self.sendbutton.removeFromSuperview()
         self.send.removeFromSuperview()
-        var activityIndicator:UIActivityIndicatorView = UIActivityIndicatorView()
-        activityIndicator.hidesWhenStopped = true
         
         
-        
-        activityIndicator.center = send.center
-        activityIndicator.centerXAnchor.constraint(equalTo: sendbutton.centerXAnchor)
-        activityIndicator.centerYAnchor.constraint(equalTo: sendbutton.centerYAnchor)
-        activityIndicator.activityIndicatorViewStyle =  UIActivityIndicatorViewStyle.gray
-        self.view.addSubview(activityIndicator)
-        activityIndicator.startAnimating()
+        self.activityIndicator.startAnimating()
         
        
         let api = MandrillAPI(ApiKey: "_KCgVFRuhFXro0YKUpgTEw")
@@ -118,11 +111,25 @@ class ContactUsViewController: UIViewController, GADBannerViewDelegate {
                       text:    ""){ mandrillResult in
                         if mandrillResult.success {
                             print("Email was sent!")
-                            activityIndicator.stopAnimating()
-                            self.doneLabel.isHidden = false
+                            self.activityIndicator.stopAnimating()
+                            self.alertUser(title: "Email Sent", message: "Thank you for contacting us. We will reach out to you shortly.")
                             
                         }
         }
+        
+        
+        }
+        else {
+            alertUser(title: "Error", message: "Please make sure you've filled out the fields entirely.")
+        }
+    }
+    
+    private func alertUser(title: String, message: String){
+        
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let back = UIAlertAction(title: "Back", style: .cancel, handler: nil)
+        alert.addAction(back)
+        present(alert, animated: true, completion: nil)
         
         
     }

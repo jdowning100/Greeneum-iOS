@@ -11,6 +11,7 @@ import GoogleMobileAds
 
 class ViewController: UIViewController, GADBannerViewDelegate {
 
+    @IBOutlet weak var loadVideo: UIWebView!
     @IBOutlet weak var bannerView: GADBannerView!
     @IBOutlet weak var menuButton: UIBarButtonItem!
     override func viewDidLoad() {
@@ -21,6 +22,25 @@ class ViewController: UIViewController, GADBannerViewDelegate {
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
         self.view.addSubview(bannerView)
+        
+        loadVideo.allowsInlineMediaPlayback = true
+        do {
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+            //print("AVAudioSession Category Playback OK")
+            do {
+                try AVAudioSession.sharedInstance().setActive(true)
+                //print("AVAudioSession is Active")
+            } catch {
+                print(error.localizedDescription)
+            }
+        } catch {
+            print(error.localizedDescription)
+        }
+        loadVideo.loadHTMLString("<iframe src=\"https://www.youtube.com/embed/R-FNmmIy2pY?&playsinline=1\" width=\"\(loadVideo.frame.width)\" height=\"\(loadVideo.frame.height)\" frameborder=\"0\" style=\"position:absolute;width:100%;height:100%;left:0\" allowfullscreen vq=hd720></iframe>", baseURL: nil)
+        
+        
+        
+        
 
         
         sideMenu()

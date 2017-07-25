@@ -16,7 +16,7 @@ class TwitterViewController: TWTRTimelineViewController {
         super.viewDidLoad()
         sideMenu()
         let client = TWTRAPIClient()
-        self.dataSource = TWTRUserTimelineDataSource(screenName: "Solar_Change", apiClient: client)
+        self.dataSource = TWTRUserTimelineDataSource(screenName: "Greeneum1", apiClient: client)
         self.showTweetActions = true
         // Do any additional setup after loading the view.
     }

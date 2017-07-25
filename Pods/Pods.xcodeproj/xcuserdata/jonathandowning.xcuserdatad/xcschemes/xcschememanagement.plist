@@ -69,6 +69,21 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ReCaptcha-ReCaptcha.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ReCaptcha.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Result.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SWRevealViewController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -87,7 +102,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>32E81250E9CBAFE06FDA08C5ACEE31F8</key>
+		<key>13A433BA03B1B98F3F5D91431248D444</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -107,17 +122,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>54CF1E2BE134819DE8E00167B3FEF774</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>593E9479C06FB200807D11AB29EB50BD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>5B5AC3C06B783F8674FDB4C0F900B56A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5B6E647739536142B300B15B394CCED3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69817AB0707D810E95E1B8CA21DB400A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -132,7 +152,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8B77A8961835AFBA92C82FE0351E6E12</key>
+		<key>8F3DABFD3BD6F05F7A4191D17F3A2557</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -153,6 +173,16 @@
 			<true/>
 		</dict>
 		<key>DDBCFDE490CDFDABF6F16A26F346932D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E9D512FAE60493CC40F803F46A917E92</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EEB443FD11A1B5DAFED46C7A94695DAA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

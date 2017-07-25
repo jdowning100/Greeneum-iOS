@@ -394,5 +394,176 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Greeneum/LogInViewController.swift"
+            timestampString = "521978229.856987"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Greeneum/LogInViewController.swift"
+            timestampString = "522501044.02672"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "179"
+            endingLineNumber = "179"
+            landmarkName = "validate()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Greeneum.LogInViewController.validate () -&gt; ()"
+                  moduleName = "Greeneum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathandowning/Desktop/SolarChange/Greeneum/LogInViewController.swift"
+                  timestampString = "521979397.053737"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "158"
+                  endingLineNumber = "158"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Greeneum.LogInViewController.(validate () -&gt; ()).(closure #1)"
+                  moduleName = "Greeneum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathandowning/Desktop/SolarChange/Greeneum/LogInViewController.swift"
+                  timestampString = "521979397.058259"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "159"
+                  endingLineNumber = "159"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Greeneum/LogInViewController.swift"
+            timestampString = "522004110.55149"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "LogInViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Greeneum.LogInViewController.__deallocating_deinit"
+                  moduleName = "Greeneum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathandowning/Desktop/SolarChange/Greeneum/LogInViewController.swift"
+                  timestampString = "521991867.219385"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Greeneum.LogInViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Greeneum.LogInViewController"
+                  moduleName = "Greeneum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathandowning/Desktop/SolarChange/Greeneum/LogInViewController.swift"
+                  timestampString = "521991867.223954"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Greeneum.LogInViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Greeneum.LogInViewController"
+                  moduleName = "Greeneum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathandowning/Desktop/SolarChange/Greeneum/LogInViewController.swift"
+                  timestampString = "521991867.228505"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Greeneum.LogInViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Greeneum.LogInViewController&gt;"
+                  moduleName = "Greeneum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathandowning/Desktop/SolarChange/Greeneum/LogInViewController.swift"
+                  timestampString = "521991867.233005"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Greeneum.LogInViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Greeneum.LogInViewController&gt;"
+                  moduleName = "Greeneum"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonathandowning/Desktop/SolarChange/Greeneum/LogInViewController.swift"
+                  timestampString = "521991867.237588"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Greeneum/LogInViewController.swift"
+            timestampString = "522501044.02672"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "250"
+            endingLineNumber = "250"
+            landmarkName = "loginButton(_:didCompleteWith:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

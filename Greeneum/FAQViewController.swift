@@ -75,5 +75,8 @@ class FAQViewController: UIViewController, GADBannerViewDelegate {
         scrollView.contentSize = contentView.bounds.size
         
     }
+    @IBAction func openLink(_ sender: Any) {
+        UIApplication.shared.openURL(URL(string: "http://greeneum.net/#!/faq")!)
+    }
 
 }

@@ -20,22 +20,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
+    
         Twitter.sharedInstance().start(withConsumerKey:"XxnT1wdB8RCh0iq21M1TqaaAD", consumerSecret:"gPfqLremtuqsRPgKgExKAcW8GmdOUftW66GUbMbqWpYpFULh7M")
         
-        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        
         FirebaseApp.configure()
         GADMobileAds.configure(withApplicationID: "ca-app-pub-9458118504247527~2019563693")
         
-        return true
+        return FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
        
         let TwitterDidHandle = Twitter.sharedInstance().application(app, open: url, options: options)
-        let FacebookDideHandle = FBSDKApplicationDelegate.sharedInstance().application(app, open: url)
+        let FacebookDideHandle = FBSDKApplicationDelegate.sharedInstance().application(app, open: url, sourceApplication: options [UIApplicationOpenURLOptionsKey.sourceApplication] as! String, annotation: options[UIApplicationOpenURLOptionsKey.annotation])
         
-        return TwitterDidHandle || FacebookDideHandle
+        return FacebookDideHandle
+        
+        //return TwitterDidHandle || FacebookDideHandle
        
     }
     

@@ -27,20 +27,44 @@ class RegisterViewController: UIViewController {
     }
     @IBAction func createAccount(_ sender: Any) {
         
-        
+        guard Auth.auth().currentUser == nil else {
+            alertUser(title: "Already logged in", message: "You are already logged in as \(Auth.auth().currentUser!.displayName!). Please log out first.")
+            return
+        }
 
         if nameField.text != "" && emailField.text != "" && passwordField.text != "" && passwordField.text == passwordField2.text{
+            
             self.activityIndicator.startAnimating()
-            self.createAccountButton.removeFromSuperview()
-
-            self.activityIndicator.startAnimating()
-            self.createAccountButton.removeFromSuperview()
+            self.createAccountButton.isHidden = true
             
             
             Auth.auth().createUser(withEmail: emailField.text!, password: passwordField.text!, completion: { user, error in
                 if(error != nil){
                     print(error!.localizedDescription)
-                    return
+                    if let errCode = AuthErrorCode(rawValue: error!._code) {
+                        switch errCode{
+                        case .accountExistsWithDifferentCredential:
+                            self.alertUser(title: "Email in use", message: "This email address is already associated with an account. Please log in.")
+                            self.emailField.text = ""
+                        case .credentialAlreadyInUse:
+                            self.alertUser(title: "Email in use", message: "This email address is already associated with an account. Please log in.")
+                            self.emailField.text = ""
+                        case .emailAlreadyInUse:
+                            self.alertUser(title: "Email in use", message: "This email address is already associated with an account. Please log in.")
+                            self.emailField.text = ""
+                        case .weakPassword:
+                            self.alertUser(title: "Weak Password", message: "Password must be at least 6 characters long.")
+                            self.passwordField.text = ""
+                            self.passwordField2.text = ""
+                        default:
+                            self.alertUser(title: "Unexpected Error", message: "Error: \(error!)")
+                        }
+                        
+                        self.activityIndicator.stopAnimating()
+                        self.createAccountButton.isHidden = false
+                    
+                    }
+
                 }
                 else{
                     print("Successfully registered account email and password")
@@ -55,6 +79,7 @@ class RegisterViewController: UIViewController {
                 }
                 else{
                     print("Successfully registered account name")
+                    self.createAccountButton.removeFromSuperview()
                     self.activityIndicator.stopAnimating()
                 }
             }
@@ -76,6 +101,9 @@ class RegisterViewController: UIViewController {
             let required = NSAttributedString(string: "Please Retype Password!", attributes: [NSForegroundColorAttributeName: UIColor.red])
             passwordField2.attributedPlaceholder = required
         }
+        else if passwordField.text != passwordField2.text{
+            self.alertUser(title: "Password Mismatch", message: "The passwords do not match. Please retype your password.")
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -92,6 +120,16 @@ class RegisterViewController: UIViewController {
         self.resignFirstResponder()
     }
     
+    private func alertUser(title: String, message: String){
+        
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let back = UIAlertAction(title: "Back", style: .cancel, handler: nil)
+        alert.addAction(back)
+        present(alert, animated: true, completion: nil)
+        
+        
+    }
+
 
     /*
     // MARK: - Navigation

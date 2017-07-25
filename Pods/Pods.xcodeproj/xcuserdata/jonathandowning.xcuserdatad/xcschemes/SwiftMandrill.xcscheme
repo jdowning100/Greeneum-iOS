@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '32E81250E9CBAFE06FDA08C5ACEE31F8'
+               BlueprintIdentifier = '13A433BA03B1B98F3F5D91431248D444'
                BlueprintName = 'SwiftMandrill'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'SwiftMandrill.framework'>
