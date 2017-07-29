@@ -22,29 +22,23 @@ class LogInViewController: UIViewController, FBSDKLoginButtonDelegate {
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var menuButton: UIBarButtonItem!
     
-    let recaptcha = try? ReCaptcha()
+    let recaptcha = try? ReCaptcha()        //not sure if this works or not but Recaptcha is implemented to stop brute force and bots (Firebase also has anti-bruteforce)
     
     override func viewDidLoad() {
         
-        recaptcha?.configureWebView { [weak self] webview in
+        recaptcha?.configureWebView { [weak self] webview in                //not sure if this works either, this is config for the webview that may come up for recaptcha
             webview.translatesAutoresizingMaskIntoConstraints = false
             webview.frame = self?.view.bounds ?? CGRect.zero
         }
         
-        //self.FBlogin = FBSDKLoginButton(readPermissions: [.publicProfile, .email])
-        FBlogin?.delegate = self
+        FBlogin?.delegate = self        //this class inherits FBLogin delegate for the FB login button
         FBlogin?.readPermissions = ["public_profile","email"]
         super.viewDidLoad()
         sideMenu()
-        // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
-    func sideMenu(){
+    func sideMenu(){ // //runs the sidebar menu via SWRevealViewController
         if revealViewController() != nil {
             menuButton.target = revealViewController()
             menuButton.action = #selector(revealViewController().revealToggle(_:))
@@ -56,25 +50,32 @@ class LogInViewController: UIViewController, FBSDKLoginButtonDelegate {
 
 
     @IBAction func login(_ sender: Any) {
-        guard Auth.auth().currentUser == nil else {
+        
+        guard Auth.auth().currentUser == nil else {     //Can't log in if already logged in
+            if Auth.auth().currentUser?.displayName == nil{
+                self.alertUser(title: "Error", message: "An error occurred. Please close and reopen the app. If the error persists please contact support.")    //hopefully this never runs
+                return
+            }
             self.alertUser(title: "Already logged in", message: "Already logged in as \(Auth.auth().currentUser!.displayName!)")
             return
         }
-        guard FBSDKAccessToken.current() == nil else {
+        guard FBSDKAccessToken.current() == nil else {      //Can't log in if logged in via Facebook
             self.alertUser(title: "Already logged in", message: "Already logged in as \(FBSDKAccessToken.current().userID)")
             return
         }
-        validate()
+        validate()      //for invisible recaptcha, not sure if it works
         
-        if username.text != nil && password.text != nil{
+        if username.text != nil && password.text != nil{        //Ensures fields are filled out entirely
             self.loginButton.isHidden = true
+            
+            activityIndicator.color = UIColor.darkGray          //activity indicator config and start
             activityIndicator.startAnimating()
             
             
-            Auth.auth().signIn(withEmail: username.text!, password: password.text!) { (user, error) in
+            Auth.auth().signIn(withEmail: username.text!, password: password.text!) { (user, error) in      //Firebase auth sign-in process with email and password
                 if(error != nil){
                     print(error!.localizedDescription)
-                    if let errCode = AuthErrorCode(rawValue: error!._code) {
+                    if let errCode = AuthErrorCode(rawValue: error!._code) {        //Handles all (likely) errors
                         
                        switch errCode {
                        case .invalidEmail:
@@ -98,6 +99,7 @@ class LogInViewController: UIViewController, FBSDKLoginButtonDelegate {
                         }
                         self.activityIndicator.stopAnimating()
                         self.loginButton.isHidden = false
+                        return
                     }
                         
                     
@@ -105,14 +107,14 @@ class LogInViewController: UIViewController, FBSDKLoginButtonDelegate {
                 else {
                     print("Log in successful")
                     self.activityIndicator.stopAnimating()
-                    self.alertUser(title: "Login Successful!", message: "Logged in as \(user!.displayName!)")
+                    self.alertUser(title: "Login Successful!", message: "Logged in as \(user!.displayName!)")       //Log in success, stop activity indicator and remove log in button
                     self.loginButton.removeFromSuperview()
                 }
             }
             
         }
         else if username.text == "" {
-            let required = NSAttributedString(string: "Email Required!", attributes: [NSForegroundColorAttributeName: UIColor.red])
+            let required = NSAttributedString(string: "Email Required!", attributes: [NSForegroundColorAttributeName: UIColor.red])     //Alerts user if fields aren't filled out
             username.attributedPlaceholder = required
         }
         else if password.text == "" {
@@ -126,22 +128,22 @@ class LogInViewController: UIViewController, FBSDKLoginButtonDelegate {
     }
     
     @IBAction func logOut(_ sender: Any) {
-        guard Auth.auth().currentUser != nil else {
+        guard Auth.auth().currentUser != nil else {     //Can't log out if already logged out
             self.alertUser(title: "Already logged out", message: "You have already been logged out.")
             return
         }
-        if FBSDKAccessToken.current() != nil{
+        if FBSDKAccessToken.current() != nil{       //Log out Facebook, if logged in
             let logout = FBSDKLoginManager()
             logout.logOut()
             loginButtonDidLogOut(FBlogin)
         }
-        let firebaseAuth = Auth.auth()
+        let firebaseAuth = Auth.auth()          //Log out Firebase
         do {
             try firebaseAuth.signOut()
             self.alertUser(title: "Log Out Successful", message: "")
         } catch let signOutError as NSError {
             if let errCode = AuthErrorCode(rawValue: signOutError._code) {
-                switch errCode {
+                switch errCode {                //Attempt at handling errors, should be updated once errors are found
                 case .sessionExpired:
                     self.alertUser(title: "Already logged out", message: "You have already been logged out.")
                 case .userTokenExpired:
@@ -161,7 +163,7 @@ class LogInViewController: UIViewController, FBSDKLoginButtonDelegate {
         }
         
     }
-    @IBAction func dismissKeyboard(_ sender: Any) {
+    @IBAction func dismissKeyboard(_ sender: Any) {     //Keyboard is dismissed when "Done" is pressed, this will probably be deprecated soon
         self.resignFirstResponder()
     }
 
@@ -176,7 +178,7 @@ class LogInViewController: UIViewController, FBSDKLoginButtonDelegate {
     }
     
     func validate() {
-        recaptcha?.validate(on: view) { [weak self] result in
+        recaptcha?.validate(on: view) { [weak self] result in       //For invisible recaptcha, not sure if it works
             print(try? result.dematerialize())
             print("Captcha validation")
         }
@@ -185,18 +187,18 @@ class LogInViewController: UIViewController, FBSDKLoginButtonDelegate {
     func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
         print("Logged out of Facebook")
 
-        guard Auth.auth().currentUser != nil else {
+        guard Auth.auth().currentUser != nil else {     //Firebase should not already be logged out
             print("Error: Firebase already logged out without logging out Facebook")
             return
         }
 
         let firebaseAuth = Auth.auth()
         do {
-            try firebaseAuth.signOut()
+            try firebaseAuth.signOut()                  //Log out firebase
             self.alertUser(title: "Log Out Successful", message: "")
         } catch let signOutError as NSError {
             if let errCode = AuthErrorCode(rawValue: signOutError._code) {
-                switch errCode {
+                switch errCode {                            //Attempt at handling errors, should be updated once errors are found
                 case .sessionExpired:
                     self.alertUser(title: "Already logged out", message: "You have already been logged out.")
                 case .userTokenExpired:
@@ -219,16 +221,12 @@ class LogInViewController: UIViewController, FBSDKLoginButtonDelegate {
     }
     
     func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
-        guard Auth.auth().currentUser == nil else {
-            self.alertUser(title: "Already logged in", message: "Already logged in as \(Auth.auth().currentUser!.displayName!)")
-            return
-        }
         if error != nil{
-            print(error.localizedDescription)
+            print(error.localizedDescription)      //TODO: Handle errors better
             return
         }
         else if(result.isCancelled){
-            alertUser(title: "Error: Please accept login", message: "")
+            alertUser(title: "Error: Please accept login", message: "")     //If the user cancels the log in we have a problem
             return
         }
         
@@ -237,9 +235,9 @@ class LogInViewController: UIViewController, FBSDKLoginButtonDelegate {
             return
             }
             
-        let credential = FacebookAuthProvider.credential(withAccessToken: accessToken.tokenString)
+        let credential = FacebookAuthProvider.credential(withAccessToken: accessToken.tokenString)              //If user is new, this registers the user with Firebase. Otherwise just logs user in
             
-        Auth.auth().signIn(with: credential) { (user, error) in
+        Auth.auth().signIn(with: credential) { (user, error) in     //uses credential to sign in, there should be no errors
             if(error != nil){
             if let errCode = AuthErrorCode(rawValue: error!._code) {
                 print(errCode.rawValue)
@@ -254,6 +252,14 @@ class LogInViewController: UIViewController, FBSDKLoginButtonDelegate {
         }
         
         
+    }
+    
+    func loginButtonWillLogin(_ loginButton: FBSDKLoginButton!) -> Bool {
+        guard Auth.auth().currentUser == nil else {     //Stops user from logging in with Facebook when already logged in
+            self.alertUser(title: "Already logged in", message: "Already logged in as \(Auth.auth().currentUser!.displayName!)")
+            return false
+        }
+        return true
     }
    
     

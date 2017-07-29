@@ -26,24 +26,19 @@ class ContactUsViewController: UIViewController, GADBannerViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        bannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
+        bannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)       //Google Admob config
         bannerView.adUnitID = adID
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
         self.view.addSubview(bannerView)
-        bannerView.isHidden = true
         relayoutViews()
         
         sideMenu()
-        // Do any additional setup after loading the view.
+   
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
-    func sideMenu(){
+    func sideMenu(){             //runs the sidebar menu via SWRevealViewController
         if revealViewController() != nil {
             menuButton.target = revealViewController()
             menuButton.action = #selector(revealViewController().revealToggle(_:))
@@ -56,19 +51,14 @@ class ContactUsViewController: UIViewController, GADBannerViewDelegate {
         
     }
     func adView(_ bannerView: GADBannerView,
-                didFailToReceiveAdWithError error: GADRequestError) {
+                didFailToReceiveAdWithError error: GADRequestError) {       //just for debug, hopefully it never runs
         print("adView:didFailToReceiveAdWithError: \(error.localizedDescription)")
     }
     
-    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
-        print("adViewDidReceiveAd:\(view)");
-        
-        bannerView.isHidden = false
-    }
 
     
     func relayoutViews(){
-        let screenRect = UIScreen.main.bounds
+        let screenRect = UIScreen.main.bounds                    //Centers the banner ad at the bottom of the screen
         var bannerFrame = bannerView.frame
         bannerFrame.origin.x = 0
         bannerFrame.origin.y = screenRect.size.height - bannerFrame.size.height
@@ -78,13 +68,13 @@ class ContactUsViewController: UIViewController, GADBannerViewDelegate {
     }
     
     override func viewDidLayoutSubviews() {
-        scrollView.layoutIfNeeded()
+        scrollView.layoutIfNeeded()         //For scrollview, probably not needed
         scrollView.contentSize = contentView.bounds.size
         
     }
 
     @IBAction func dismissKeyboard(_ sender: Any) {
-        self.resignFirstResponder()
+        self.resignFirstResponder()         //Dismisses the keyboard when "Done" is tapped
     }
     
 
@@ -93,21 +83,21 @@ class ContactUsViewController: UIViewController, GADBannerViewDelegate {
     @IBOutlet weak var send: UILabel!
     
     @IBAction func sendButton(_ sender: Any) {
-        if nameField.text != "" && messageField.text != ""{
-        self.sendbutton.removeFromSuperview()
+        if nameField.text != "" && messageField.text != ""{     //Check to make sure fields are filled out
+        self.sendbutton.removeFromSuperview()           //removes buttons because they won't be needed
         self.send.removeFromSuperview()
         
-        
+        self.activityIndicator.color = UIColor.darkGray     //activity indicator config
         self.activityIndicator.startAnimating()
         
        
-        let api = MandrillAPI(ApiKey: "_KCgVFRuhFXro0YKUpgTEw")
+        let api = MandrillAPI(ApiKey: "_KCgVFRuhFXro0YKUpgTEw")         //uses SwiftMandrill to send email
         
         api.sendEmail(from:    "info@solarchange.co",
                       fromName:"Greeneum",
-                      to:      ["elya@solarchange.co","assaf@solarchange.co","jdowning@utexas.edu"],
+                      to:      ["elya@solarchange.co","assaf@solarchange.co","jdowning@utexas.edu"],        //Update this as neccessary
                       subject: "Contact Us Greeneum (App)",
-                      html:    "Name: \(nameField.text!) <br /><br />Email: \(emailField.text!) <br /><br />Message: \(messageField.text!)",
+                      html:    "Name: \(nameField.text!) <br /><br />Email: \(emailField.text!) <br /><br />Message: \(messageField.text!)",    //this includes HTML, not entirely Swift
                       text:    ""){ mandrillResult in
                         if mandrillResult.success {
                             print("Email was sent!")
@@ -124,7 +114,7 @@ class ContactUsViewController: UIViewController, GADBannerViewDelegate {
         }
     }
     
-    private func alertUser(title: String, message: String){
+    private func alertUser(title: String, message: String){     //Alerts the user with a UIAlertController
         
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let back = UIAlertAction(title: "Back", style: .cancel, handler: nil)

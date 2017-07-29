@@ -14,10 +14,10 @@ class TwitterViewController: TWTRTimelineViewController {
     @IBOutlet weak var menuButton: UIBarButtonItem!
        override func viewDidLoad() {
         super.viewDidLoad()
-        sideMenu()
+        sideMenu()                      //runs the sidebar
         let client = TWTRAPIClient()
-        self.dataSource = TWTRUserTimelineDataSource(screenName: "Greeneum1", apiClient: client)
-        self.showTweetActions = true
+        self.dataSource = TWTRUserTimelineDataSource(screenName: "Greeneum1", apiClient: client)        //update screenName if necessary, otherwise TwitterKit does everything on its own
+        self.showTweetActions = true        //useful for sharing/liking tweets
         // Do any additional setup after loading the view.
     }
 
@@ -26,7 +26,7 @@ class TwitterViewController: TWTRTimelineViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func sideMenu(){
+    func sideMenu(){        //runs the sidebar menu via SWRevealViewController
         if revealViewController() != nil {
             menuButton.target = revealViewController()
             menuButton.action = #selector(revealViewController().revealToggle(_:))

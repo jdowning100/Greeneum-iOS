@@ -17,15 +17,16 @@ class ViewController: UIViewController, GADBannerViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        bannerView.adSize = kGADAdSizeBanner
+        bannerView.adSize = kGADAdSizeBanner        //Google Admob Banner characteristics
         bannerView.adUnitID = adID
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
         self.view.addSubview(bannerView)
         
-        loadVideo.allowsInlineMediaPlayback = true
+        loadVideo.allowsInlineMediaPlayback = true          //not sure if this does anything
+        
         do {
-            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)     //done in order to have sound without turning on ringer
             //print("AVAudioSession Category Playback OK")
             do {
                 try AVAudioSession.sharedInstance().setActive(true)
@@ -36,15 +37,15 @@ class ViewController: UIViewController, GADBannerViewDelegate {
         } catch {
             print(error.localizedDescription)
         }
-        loadVideo.loadHTMLString("<iframe src=\"https://www.youtube.com/embed/R-FNmmIy2pY?&playsinline=1\" width=\"\(loadVideo.frame.width)\" height=\"\(loadVideo.frame.height)\" frameborder=\"0\" style=\"position:absolute;width:100%;height:100%;left:0\" allowfullscreen vq=hd720></iframe>", baseURL: nil)
+        loadVideo.loadHTMLString("<iframe src=\"https://www.youtube.com/embed/R-FNmmIy2pY?&playsinline=1\" width=\"\(loadVideo.frame.width)\" height=\"\(loadVideo.frame.height)\" frameborder=\"0\" style=\"position:absolute;width:100%;height:100%;left:0\" allowfullscreen vq=hd720></iframe>", baseURL: nil)               //loads the video from Youtube (update the link whenever new video is released)
         
         
         
         
 
         
-        sideMenu()
-        // Do any additional setup after loading the view.
+        sideMenu()      //runs the side menu function
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -53,7 +54,7 @@ class ViewController: UIViewController, GADBannerViewDelegate {
     }
     
     func sideMenu(){
-        if revealViewController() != nil {
+        if revealViewController() != nil {                  //runs the sidebar menu via SWRevealViewController
             menuButton.target = revealViewController()
             menuButton.action = #selector(revealViewController().revealToggle(_:))
             revealViewController().rearViewRevealWidth = 315
@@ -66,7 +67,7 @@ class ViewController: UIViewController, GADBannerViewDelegate {
     }
     func adView(_ bannerView: GADBannerView,
                 didFailToReceiveAdWithError error: GADRequestError) {
-        print("adView:didFailToReceiveAdWithError: \(error.localizedDescription)")
+        print("adView:didFailToReceiveAdWithError: \(error.localizedDescription)")      //Hopefully will never run
     }
     /*
     // MARK: - Navigation

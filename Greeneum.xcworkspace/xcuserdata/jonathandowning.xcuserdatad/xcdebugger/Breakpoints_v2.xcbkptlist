@@ -415,11 +415,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Greeneum/LogInViewController.swift"
-            timestampString = "522501044.02672"
+            timestampString = "522951967.959464"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "179"
-            endingLineNumber = "179"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
             landmarkName = "validate()"
             landmarkType = "7">
             <Locations>
@@ -556,13 +556,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Greeneum/LogInViewController.swift"
-            timestampString = "522501044.02672"
+            timestampString = "522951967.959464"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "250"
-            endingLineNumber = "250"
+            startingLineNumber = "248"
+            endingLineNumber = "248"
             landmarkName = "loginButton(_:didCompleteWith:error:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Greeneum/Greeneum-Bridging-Header.h"
+            timestampString = "522947418.411923"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -1540,6 +1540,9 @@ GREENEUM Coin is a newly introduced cryptocurrency monetizing renewable energy, 
                                 <rect key="frame" x="162" y="265" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IdL-RL-Nkw">
                                 <rect key="frame" x="16" y="265" width="343" height="50"/>
@@ -1812,8 +1815,8 @@ GREENEUM Coin is a newly introduced cryptocurrency monetizing renewable energy, 
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Gig-ip-3g6"/>
-        <segue reference="2uX-iY-bSW"/>
-        <segue reference="RSX-zf-Dmy"/>
         <segue reference="ToV-D8-A8U"/>
+        <segue reference="Rmn-hI-1OY"/>
+        <segue reference="2uX-iY-bSW"/>
     </inferredMetricsTieBreakers>
 </document>

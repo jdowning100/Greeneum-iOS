@@ -14,10 +14,10 @@ class ContributeViewController: UIViewController {
     @IBOutlet weak var menuButton: UIBarButtonItem!
     var bannerView: GADBannerView!
     
-    override func viewDidLoad() {
+    override func viewDidLoad() {                       //TODO: Update this view when the ICO launch date is revealed and again when it launches
         super.viewDidLoad()
         
-        bannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
+        bannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)       //Google Admob Ad configuration
         bannerView.adUnitID = adID
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
@@ -28,10 +28,10 @@ class ContributeViewController: UIViewController {
         sideMenu()
 
 
-        // Do any additional setup after loading the view.
+       
     }
     
-    func sideMenu(){
+    func sideMenu(){        //runs the sidebar menu via SWRevealViewController
         if revealViewController() != nil {
             menuButton.target = revealViewController()
             menuButton.action = #selector(revealViewController().revealToggle(_:))
@@ -41,7 +41,7 @@ class ContributeViewController: UIViewController {
         }
     }
 
-    func relayoutViews(){
+    func relayoutViews(){           //centers the banner at at the bottom of the screen
         let screenRect = UIScreen.main.bounds
         var bannerFrame = bannerView.frame
         bannerFrame.origin.x = 0

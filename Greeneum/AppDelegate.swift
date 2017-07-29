@@ -10,7 +10,7 @@ import UIKit
 import FBSDKCoreKit
 import GoogleMobileAds
 import Firebase
-let adID : String = "ca-app-pub-9458118504247527/3496296897"
+let adID : String = "ca-app-pub-9458118504247527/3496296897" //global ad ID for Admob ads in app
 //test ad ID: "ca-app-pub-3940256099942544/2934735716"
 
 @UIApplicationMain
@@ -21,18 +21,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
     
-        Twitter.sharedInstance().start(withConsumerKey:"XxnT1wdB8RCh0iq21M1TqaaAD", consumerSecret:"gPfqLremtuqsRPgKgExKAcW8GmdOUftW66GUbMbqWpYpFULh7M")
+        Twitter.sharedInstance().start(withConsumerKey:"XxnT1wdB8RCh0iq21M1TqaaAD", consumerSecret:"gPfqLremtuqsRPgKgExKAcW8GmdOUftW66GUbMbqWpYpFULh7M")    //Configure Twitterkit with API key
         
         
         FirebaseApp.configure()
-        GADMobileAds.configure(withApplicationID: "ca-app-pub-9458118504247527~2019563693")
+        GADMobileAds.configure(withApplicationID: "ca-app-pub-9458118504247527~2019563693")     //Configure Google Admob with API key
         
         return FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
     }
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
        
-        let TwitterDidHandle = Twitter.sharedInstance().application(app, open: url, options: options)
+        let TwitterDidHandle = Twitter.sharedInstance().application(app, open: url, options: options)       //Likely not neccessary but Twitter mandates we do this
         let FacebookDideHandle = FBSDKApplicationDelegate.sharedInstance().application(app, open: url, sourceApplication: options [UIApplicationOpenURLOptionsKey.sourceApplication] as! String, annotation: options[UIApplicationOpenURLOptionsKey.annotation])
         
         return FacebookDideHandle

@@ -17,13 +17,13 @@ class AboutViewController: UIViewController, GADBannerViewDelegate {
     @IBOutlet weak var scrollView: UIScrollView!
     var bannerView: GADBannerView!
    
-    override func viewDidLoad() {
+    override func viewDidLoad() { //Okay, so the StoryBoard version of this view is crazy complicated. I get it. I will convert it programatically when I get the chance.
         super.viewDidLoad()
         
-        self.view.addSubview(scrollView)
+        self.view.addSubview(scrollView)            //Is this needed? Probably not because everything is done in Storyboard. But Swift is weird sometimes.
         self.view.insertSubview(imageView, belowSubview: scrollView)
 
-        bannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
+        bannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)       //Done for Google Admob ads
         bannerView.adUnitID = adID
         bannerView.rootViewController = self
         bannerView.load(GADRequest())
@@ -44,7 +44,7 @@ class AboutViewController: UIViewController, GADBannerViewDelegate {
         scrollView.contentSize = CGSize(width: 375, height: 6750)
     }
     
-    func sideMenu(){
+    func sideMenu(){                        //runs the sidebar menu via SWRevealViewController
         if revealViewController() != nil {
             menuButton.target = revealViewController()
             menuButton.action = #selector(revealViewController().revealToggle(_:))
@@ -54,14 +54,10 @@ class AboutViewController: UIViewController, GADBannerViewDelegate {
         }
     }
     
-    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
-        print("adViewDidReceiveAd:\(view)");
-        
-        relayoutViews()
-    }
+   
     
     func relayoutViews(){
-        let screenRect = UIScreen.main.bounds
+        let screenRect = UIScreen.main.bounds       //centers the banner ad at the bottom of the screen
         var bannerFrame = bannerView.frame
         bannerFrame.origin.x = 0
         bannerFrame.origin.y = screenRect.size.height - bannerFrame.size.height
@@ -74,15 +70,6 @@ class AboutViewController: UIViewController, GADBannerViewDelegate {
         print("adView:didFailToReceiveAdWithError: \(error.localizedDescription)")
     }
 
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+   
 
 }
