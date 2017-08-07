@@ -70,11 +70,12 @@ class FAQViewController: UIViewController, GADBannerViewDelegate {
         
     }
     
-    override func viewDidLayoutSubviews() {     //Is this needed? Probably not because everything is done in Storyboard. But Swift is weird sometimes.
-        scrollView.layoutIfNeeded()
-        scrollView.contentSize = contentView.bounds.size
+    override func viewDidAppear(_ animated: Bool) { //Is this needed? Probably not because everything is done in Storyboard. But Swift is weird sometimes.
+        scrollView.frame = view.frame
+        scrollView.contentSize = contentView.frame.size
         
     }
+    
     @IBAction func openLink(_ sender: Any) {
         UIApplication.shared.openURL(URL(string: "http://greeneum.net/#!/faq")!)        //for the button at the bottom of the FAQ, update this link if neccessary
     }

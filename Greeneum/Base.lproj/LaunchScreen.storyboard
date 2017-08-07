@@ -34,6 +34,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="HBI-5q-w7A" secondAttribute="trailing" constant="51" id="1GD-qy-tOx"/>
                             <constraint firstItem="gJB-jh-wus" firstAttribute="centerX" secondItem="HBI-5q-w7A" secondAttribute="centerX" id="3oP-Oy-Xm0"/>
                             <constraint firstItem="HBI-5q-w7A" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="51" id="7aQ-y8-jaE"/>
                             <constraint firstItem="gJB-jh-wus" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="II4-OH-dpe"/>
@@ -42,6 +43,7 @@
                             <constraint firstItem="gJB-jh-wus" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="QSh-nc-dNV"/>
                             <constraint firstItem="gJB-jh-wus" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="303" id="Vlc-Z2-GbO"/>
                             <constraint firstItem="HBI-5q-w7A" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="cxh-yx-pSo"/>
+                            <constraint firstItem="gJB-jh-wus" firstAttribute="top" secondItem="HBI-5q-w7A" secondAttribute="bottom" constant="-36" id="dAl-wp-dhx"/>
                         </constraints>
                     </view>
                 </viewController>
